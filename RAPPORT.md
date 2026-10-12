@@ -259,7 +259,3 @@ Un skill est une connaissance que **l'agent** charge de lui-même quand sa descr
 ## Captures
 
 Les captures `outils-mcp.png`, `outil-lecture.png` et `missions.png` ont été prises dans le terminal OpenCode pendant la séance. Les captures `ex*.png` sont prises dans l'interface web d'OpenCode (`opencode serve`) affichant les mêmes sessions. Cette interface n'affiche pas le contenu des réponses des outils MCP : pour la preuve de 2.b, l'agent a rappelé les outils dans une session dédiée en affichant leur réponse telle quelle ; le texte affiché est identique, caractère pour caractère, aux réponses de l'outil enregistrées dans l'export de cette session ([`preuves/14`](preuves/14-session-opencode-preuves.json)). Les appels des sessions avec skill sont dans [`preuves/15`](preuves/15-session-opencode-avec-skill.json) (cinq missions, dont les six `delete_loan` refusés) et [`preuves/16`](preuves/16-session-opencode-avec-skill-corrige-M4.json) (M4 après correction).
-
-## Reste à faire
-
-- Renommer le dépôt `tp1-<nom1>-<nom2>` et le pousser.
