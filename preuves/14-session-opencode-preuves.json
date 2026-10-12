@@ -1,0 +1,30 @@
+{
+  "source": "export de la session OpenCode ses_ed00ae29bffer3P5qlLCiQvii0 (Preuves - reponses brutes), appels MCP et chargement de skill",
+  "appels": [
+    {
+      "demande_utilisateur": "\"Appelle exactement ces trois outils, dans cet ordre, sans rien appeler d'autre : (1) bibliotheque_list_loans avec member_id=MB-201 et status=open ; (2) bibliotheque_get_member_fees avec member_id=MB-201 ; (3) bibliotheque_get_book avec book_id=BK-1042. Pour chacun, affiche l'appel puis la réponse brute exacte renvoyée par l'outil dans un bloc de code JSON, caractère pour caractère, sans la résumer, la reformater ni la commenter. N'ajoute aucune conclusion.\"",
+      "outil": "bibliotheque_list_loans",
+      "arguments": {
+        "member_id": "MB-201",
+        "status": "open"
+      },
+      "reponse_brute": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"loan_id\": \"LN-5008\",\n      \"book_id\": \"BK-1040\",\n      \"member_id\": \"MB-201\",\n      \"started_at\": 1787907600,\n      \"due_at\": 1789722000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    }\n  ],\n  \"next\": \"MjA=\"\n}"
+    },
+    {
+      "demande_utilisateur": "\"Appelle exactement ces trois outils, dans cet ordre, sans rien appeler d'autre : (1) bibliotheque_list_loans avec member_id=MB-201 et status=open ; (2) bibliotheque_get_member_fees avec member_id=MB-201 ; (3) bibliotheque_get_book avec book_id=BK-1042. Pour chacun, affiche l'appel puis la réponse brute exacte renvoyée par l'outil dans un bloc de code JSON, caractère pour caractère, sans la résumer, la reformater ni la commenter. N'ajoute aucune conclusion.\"",
+      "outil": "bibliotheque_get_member_fees",
+      "arguments": {
+        "member_id": "MB-201"
+      },
+      "reponse_brute": "{\n  \"ok\": true,\n  \"member_id\": \"MB-201\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 432,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 2.7\n}"
+    },
+    {
+      "demande_utilisateur": "\"Appelle exactement ces trois outils, dans cet ordre, sans rien appeler d'autre : (1) bibliotheque_list_loans avec member_id=MB-201 et status=open ; (2) bibliotheque_get_member_fees avec member_id=MB-201 ; (3) bibliotheque_get_book avec book_id=BK-1042. Pour chacun, affiche l'appel puis la réponse brute exacte renvoyée par l'outil dans un bloc de code JSON, caractère pour caractère, sans la résumer, la reformater ni la commenter. N'ajoute aucune conclusion.\"",
+      "outil": "bibliotheque_get_book",
+      "arguments": {
+        "book_id": "BK-1042"
+      },
+      "reponse_brute": "{\n  \"ok\": true,\n  \"book\": {\n    \"book_id\": \"BK-1042\",\n    \"title\": \"Le Dernier de verre\",\n    \"author\": \"Karim Barbier\",\n    \"genre\": \"policier\",\n    \"copies\": 4,\n    \"loan_duration\": 21,\n    \"added_at\": \"2023-11-09T09:00:00.000Z\",\n    \"archived\": false\n  }\n}"
+    }
+  ]
+}

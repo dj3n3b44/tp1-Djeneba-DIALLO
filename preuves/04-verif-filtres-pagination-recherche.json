@@ -1,0 +1,2258 @@
+{
+  "fetched_at": "2026-10-12T11:09:23.772Z",
+  "results": [
+    {
+      "tool": "list_members",
+      "arguments": {},
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"member_id\": \"MB-200\",\n      \"first_name\": \"Yanis\",\n      \"last_name\": \"Robin\",\n      \"joined_at\": \"05/12/2024\",\n      \"active\": true,\n      \"email\": \"yanis.robin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-201\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"30/08/2026\",\n      \"active\": true,\n      \"email\": \"mehdi.moreau@example.org\"\n    },\n    {\n      \"member_id\": \"MB-202\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Noël\",\n      \"joined_at\": \"13/01/2024\",\n      \"active\": true,\n      \"email\": \"nora.noel@example.org\"\n    },\n    {\n      \"member_id\": \"MB-203\",\n      \"first_name\": \"Antoine\",\n      \"last_name\": \"Mercier\",\n      \"joined_at\": \"21/02/2022\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-204\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"29/08/2025\",\n      \"active\": true,\n      \"email\": \"lea.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-205\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Marchand\",\n      \"joined_at\": \"13/04/2022\",\n      \"active\": false,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-206\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"25/02/2023\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-207\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"23/12/2025\",\n      \"active\": true,\n      \"email\": \"mehdi.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-208\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"09/04/2022\",\n      \"active\": true,\n      \"email\": \"paul.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-209\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Girard\",\n      \"joined_at\": \"21/08/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-210\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"07/03/2023\",\n      \"active\": true,\n      \"email\": \"lucas.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-211\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Bernard\",\n      \"joined_at\": \"03/03/2024\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-212\",\n      \"first_name\": \"Manon\",\n      \"last_name\": \"Fontaine\",\n      \"joined_at\": \"01/03/2026\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-213\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"02/03/2026\",\n      \"active\": true,\n      \"email\": \"lea.lefevre@example.org\"\n    },\n    {\n      \"member_id\": \"MB-214\",\n      \"first_name\": \"Chloé\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"09/07/2023\",\n      \"active\": true,\n      \"email\": \"chloe.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-215\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"19/03/2023\",\n      \"active\": false,\n      \"email\": \"lea.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-216\",\n      \"first_name\": \"Thomas\",\n      \"last_name\": \"Dumas\",\n      \"joined_at\": \"15/08/2026\",\n      \"active\": true,\n      \"email\": \"thomas.dumas@example.org\"\n    },\n    {\n      \"member_id\": \"MB-217\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"13/04/2026\",\n      \"active\": true,\n      \"email\": \"hugo.barbier@example.org\"\n    },\n    {\n      \"member_id\": \"MB-218\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"11/08/2025\",\n      \"active\": true,\n      \"email\": \"paul.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-219\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"10/09/2025\",\n      \"active\": false,\n      \"email\": \"sarah.guerin@example.org\"\n    }\n  ],\n  \"next\": \"MjA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "member_id": "MB-200",
+            "first_name": "Yanis",
+            "last_name": "Robin",
+            "joined_at": "05/12/2024",
+            "active": true,
+            "email": "yanis.robin@example.org"
+          },
+          {
+            "member_id": "MB-201",
+            "first_name": "Mehdi",
+            "last_name": "Moreau",
+            "joined_at": "30/08/2026",
+            "active": true,
+            "email": "mehdi.moreau@example.org"
+          },
+          {
+            "member_id": "MB-202",
+            "first_name": "Nora",
+            "last_name": "Noël",
+            "joined_at": "13/01/2024",
+            "active": true,
+            "email": "nora.noel@example.org"
+          },
+          {
+            "member_id": "MB-203",
+            "first_name": "Antoine",
+            "last_name": "Mercier",
+            "joined_at": "21/02/2022",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-204",
+            "first_name": "Léa",
+            "last_name": "Guerin",
+            "joined_at": "29/08/2025",
+            "active": true,
+            "email": "lea.guerin@example.org"
+          },
+          {
+            "member_id": "MB-205",
+            "first_name": "Lucas",
+            "last_name": "Marchand",
+            "joined_at": "13/04/2022",
+            "active": false,
+            "email": null
+          },
+          {
+            "member_id": "MB-206",
+            "first_name": "Emma",
+            "last_name": "Barbier",
+            "joined_at": "25/02/2023",
+            "active": true
+          },
+          {
+            "member_id": "MB-207",
+            "first_name": "Mehdi",
+            "last_name": "Blanc",
+            "joined_at": "23/12/2025",
+            "active": true,
+            "email": "mehdi.blanc@example.org"
+          },
+          {
+            "member_id": "MB-208",
+            "first_name": "Paul",
+            "last_name": "Leroy",
+            "joined_at": "09/04/2022",
+            "active": true,
+            "email": "paul.leroy@example.org"
+          },
+          {
+            "member_id": "MB-209",
+            "first_name": "Emma",
+            "last_name": "Girard",
+            "joined_at": "21/08/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-210",
+            "first_name": "Lucas",
+            "last_name": "Blanc",
+            "joined_at": "07/03/2023",
+            "active": true,
+            "email": "lucas.blanc@example.org"
+          },
+          {
+            "member_id": "MB-211",
+            "first_name": "Paul",
+            "last_name": "Bernard",
+            "joined_at": "03/03/2024",
+            "active": true
+          },
+          {
+            "member_id": "MB-212",
+            "first_name": "Manon",
+            "last_name": "Fontaine",
+            "joined_at": "01/03/2026",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-213",
+            "first_name": "Léa",
+            "last_name": "Lefèvre",
+            "joined_at": "02/03/2026",
+            "active": true,
+            "email": "lea.lefevre@example.org"
+          },
+          {
+            "member_id": "MB-214",
+            "first_name": "Chloé",
+            "last_name": "Roux",
+            "joined_at": "09/07/2023",
+            "active": true,
+            "email": "chloe.roux@example.org"
+          },
+          {
+            "member_id": "MB-215",
+            "first_name": "Léa",
+            "last_name": "Perrin",
+            "joined_at": "19/03/2023",
+            "active": false,
+            "email": "lea.perrin@example.org"
+          },
+          {
+            "member_id": "MB-216",
+            "first_name": "Thomas",
+            "last_name": "Dumas",
+            "joined_at": "15/08/2026",
+            "active": true,
+            "email": "thomas.dumas@example.org"
+          },
+          {
+            "member_id": "MB-217",
+            "first_name": "Hugo",
+            "last_name": "Barbier",
+            "joined_at": "13/04/2026",
+            "active": true,
+            "email": "hugo.barbier@example.org"
+          },
+          {
+            "member_id": "MB-218",
+            "first_name": "Paul",
+            "last_name": "Roux",
+            "joined_at": "11/08/2025",
+            "active": true,
+            "email": "paul.roux@example.org"
+          },
+          {
+            "member_id": "MB-219",
+            "first_name": "Sarah",
+            "last_name": "Guerin",
+            "joined_at": "10/09/2025",
+            "active": false,
+            "email": "sarah.guerin@example.org"
+          }
+        ],
+        "next": "MjA="
+      }
+    },
+    {
+      "tool": "list_members",
+      "arguments": {
+        "active_only": true,
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"member_id\": \"MB-200\",\n      \"first_name\": \"Yanis\",\n      \"last_name\": \"Robin\",\n      \"joined_at\": \"05/12/2024\",\n      \"active\": true,\n      \"email\": \"yanis.robin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-201\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"30/08/2026\",\n      \"active\": true,\n      \"email\": \"mehdi.moreau@example.org\"\n    },\n    {\n      \"member_id\": \"MB-202\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Noël\",\n      \"joined_at\": \"13/01/2024\",\n      \"active\": true,\n      \"email\": \"nora.noel@example.org\"\n    },\n    {\n      \"member_id\": \"MB-203\",\n      \"first_name\": \"Antoine\",\n      \"last_name\": \"Mercier\",\n      \"joined_at\": \"21/02/2022\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-204\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"29/08/2025\",\n      \"active\": true,\n      \"email\": \"lea.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-206\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"25/02/2023\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-207\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"23/12/2025\",\n      \"active\": true,\n      \"email\": \"mehdi.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-208\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"09/04/2022\",\n      \"active\": true,\n      \"email\": \"paul.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-209\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Girard\",\n      \"joined_at\": \"21/08/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-210\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"07/03/2023\",\n      \"active\": true,\n      \"email\": \"lucas.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-211\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Bernard\",\n      \"joined_at\": \"03/03/2024\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-212\",\n      \"first_name\": \"Manon\",\n      \"last_name\": \"Fontaine\",\n      \"joined_at\": \"01/03/2026\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-213\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"02/03/2026\",\n      \"active\": true,\n      \"email\": \"lea.lefevre@example.org\"\n    },\n    {\n      \"member_id\": \"MB-214\",\n      \"first_name\": \"Chloé\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"09/07/2023\",\n      \"active\": true,\n      \"email\": \"chloe.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-216\",\n      \"first_name\": \"Thomas\",\n      \"last_name\": \"Dumas\",\n      \"joined_at\": \"15/08/2026\",\n      \"active\": true,\n      \"email\": \"thomas.dumas@example.org\"\n    },\n    {\n      \"member_id\": \"MB-217\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"13/04/2026\",\n      \"active\": true,\n      \"email\": \"hugo.barbier@example.org\"\n    },\n    {\n      \"member_id\": \"MB-218\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"11/08/2025\",\n      \"active\": true,\n      \"email\": \"paul.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-220\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"14/07/2025\",\n      \"active\": true,\n      \"email\": \"hugo.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-221\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Dumas\",\n      \"joined_at\": \"16/04/2023\",\n      \"active\": true,\n      \"email\": \"paul.dumas@example.org\"\n    },\n    {\n      \"member_id\": \"MB-222\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"13/04/2022\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-223\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Marchand\",\n      \"joined_at\": \"05/02/2024\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-224\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"08/09/2026\",\n      \"active\": true,\n      \"email\": \"sarah.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-225\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"17/04/2024\",\n      \"active\": true,\n      \"email\": \"paul.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-226\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"18/01/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-227\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"07/04/2024\",\n      \"active\": true,\n      \"email\": \"hugo.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-228\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Fontaine\",\n      \"joined_at\": \"18/07/2024\",\n      \"active\": true,\n      \"email\": \"lucas.fontaine@example.org\"\n    },\n    {\n      \"member_id\": \"MB-229\",\n      \"first_name\": \"Camille\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"04/04/2023\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-230\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"16/01/2023\",\n      \"active\": true,\n      \"email\": \"nora.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-231\",\n      \"first_name\": \"Karim\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"28/02/2026\",\n      \"active\": true,\n      \"email\": \"karim.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-232\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"18/02/2024\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-233\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Marchand\",\n      \"joined_at\": \"01/01/2025\",\n      \"active\": true,\n      \"email\": \"nora.marchand@example.org\"\n    },\n    {\n      \"member_id\": \"MB-234\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"24/10/2023\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-235\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Mercier\",\n      \"joined_at\": \"19/05/2026\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-236\",\n      \"first_name\": \"Julien\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"07/11/2022\",\n      \"active\": true,\n      \"email\": \"julien.lefevre@example.org\"\n    },\n    {\n      \"member_id\": \"MB-237\",\n      \"first_name\": \"Yanis\",\n      \"last_name\": \"Robin\",\n      \"joined_at\": \"27/10/2025\",\n      \"active\": true,\n      \"email\": \"yanis.robin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-238\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"30/06/2025\",\n      \"active\": true,\n      \"email\": \"paul.moreau@example.org\"\n    },\n    {\n      \"member_id\": \"MB-239\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"15/03/2026\",\n      \"active\": true,\n      \"email\": \"sarah.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-240\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"05/09/2024\",\n      \"active\": true,\n      \"email\": \"lea.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-241\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"04/04/2026\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-242\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"18/03/2026\",\n      \"active\": true,\n      \"email\": \"paul.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-243\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"13/06/2026\",\n      \"active\": true,\n      \"email\": \"lea.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-244\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Noël\",\n      \"joined_at\": \"14/06/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-245\",\n      \"first_name\": \"Fatou\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"06/06/2025\",\n      \"active\": true,\n      \"email\": \"fatou.roux@example.org\"\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "member_id": "MB-200",
+            "first_name": "Yanis",
+            "last_name": "Robin",
+            "joined_at": "05/12/2024",
+            "active": true,
+            "email": "yanis.robin@example.org"
+          },
+          {
+            "member_id": "MB-201",
+            "first_name": "Mehdi",
+            "last_name": "Moreau",
+            "joined_at": "30/08/2026",
+            "active": true,
+            "email": "mehdi.moreau@example.org"
+          },
+          {
+            "member_id": "MB-202",
+            "first_name": "Nora",
+            "last_name": "Noël",
+            "joined_at": "13/01/2024",
+            "active": true,
+            "email": "nora.noel@example.org"
+          },
+          {
+            "member_id": "MB-203",
+            "first_name": "Antoine",
+            "last_name": "Mercier",
+            "joined_at": "21/02/2022",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-204",
+            "first_name": "Léa",
+            "last_name": "Guerin",
+            "joined_at": "29/08/2025",
+            "active": true,
+            "email": "lea.guerin@example.org"
+          },
+          {
+            "member_id": "MB-206",
+            "first_name": "Emma",
+            "last_name": "Barbier",
+            "joined_at": "25/02/2023",
+            "active": true
+          },
+          {
+            "member_id": "MB-207",
+            "first_name": "Mehdi",
+            "last_name": "Blanc",
+            "joined_at": "23/12/2025",
+            "active": true,
+            "email": "mehdi.blanc@example.org"
+          },
+          {
+            "member_id": "MB-208",
+            "first_name": "Paul",
+            "last_name": "Leroy",
+            "joined_at": "09/04/2022",
+            "active": true,
+            "email": "paul.leroy@example.org"
+          },
+          {
+            "member_id": "MB-209",
+            "first_name": "Emma",
+            "last_name": "Girard",
+            "joined_at": "21/08/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-210",
+            "first_name": "Lucas",
+            "last_name": "Blanc",
+            "joined_at": "07/03/2023",
+            "active": true,
+            "email": "lucas.blanc@example.org"
+          },
+          {
+            "member_id": "MB-211",
+            "first_name": "Paul",
+            "last_name": "Bernard",
+            "joined_at": "03/03/2024",
+            "active": true
+          },
+          {
+            "member_id": "MB-212",
+            "first_name": "Manon",
+            "last_name": "Fontaine",
+            "joined_at": "01/03/2026",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-213",
+            "first_name": "Léa",
+            "last_name": "Lefèvre",
+            "joined_at": "02/03/2026",
+            "active": true,
+            "email": "lea.lefevre@example.org"
+          },
+          {
+            "member_id": "MB-214",
+            "first_name": "Chloé",
+            "last_name": "Roux",
+            "joined_at": "09/07/2023",
+            "active": true,
+            "email": "chloe.roux@example.org"
+          },
+          {
+            "member_id": "MB-216",
+            "first_name": "Thomas",
+            "last_name": "Dumas",
+            "joined_at": "15/08/2026",
+            "active": true,
+            "email": "thomas.dumas@example.org"
+          },
+          {
+            "member_id": "MB-217",
+            "first_name": "Hugo",
+            "last_name": "Barbier",
+            "joined_at": "13/04/2026",
+            "active": true,
+            "email": "hugo.barbier@example.org"
+          },
+          {
+            "member_id": "MB-218",
+            "first_name": "Paul",
+            "last_name": "Roux",
+            "joined_at": "11/08/2025",
+            "active": true,
+            "email": "paul.roux@example.org"
+          },
+          {
+            "member_id": "MB-220",
+            "first_name": "Hugo",
+            "last_name": "Leroy",
+            "joined_at": "14/07/2025",
+            "active": true,
+            "email": "hugo.leroy@example.org"
+          },
+          {
+            "member_id": "MB-221",
+            "first_name": "Paul",
+            "last_name": "Dumas",
+            "joined_at": "16/04/2023",
+            "active": true,
+            "email": "paul.dumas@example.org"
+          },
+          {
+            "member_id": "MB-222",
+            "first_name": "Mehdi",
+            "last_name": "Moreau",
+            "joined_at": "13/04/2022",
+            "active": true
+          },
+          {
+            "member_id": "MB-223",
+            "first_name": "Nora",
+            "last_name": "Marchand",
+            "joined_at": "05/02/2024",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-224",
+            "first_name": "Sarah",
+            "last_name": "Perrin",
+            "joined_at": "08/09/2026",
+            "active": true,
+            "email": "sarah.perrin@example.org"
+          },
+          {
+            "member_id": "MB-225",
+            "first_name": "Paul",
+            "last_name": "Blanc",
+            "joined_at": "17/04/2024",
+            "active": true,
+            "email": "paul.blanc@example.org"
+          },
+          {
+            "member_id": "MB-226",
+            "first_name": "Lucas",
+            "last_name": "Moreau",
+            "joined_at": "18/01/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-227",
+            "first_name": "Hugo",
+            "last_name": "Perrin",
+            "joined_at": "07/04/2024",
+            "active": true,
+            "email": "hugo.perrin@example.org"
+          },
+          {
+            "member_id": "MB-228",
+            "first_name": "Lucas",
+            "last_name": "Fontaine",
+            "joined_at": "18/07/2024",
+            "active": true,
+            "email": "lucas.fontaine@example.org"
+          },
+          {
+            "member_id": "MB-229",
+            "first_name": "Camille",
+            "last_name": "Guerin",
+            "joined_at": "04/04/2023",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-230",
+            "first_name": "Nora",
+            "last_name": "Roux",
+            "joined_at": "16/01/2023",
+            "active": true,
+            "email": "nora.roux@example.org"
+          },
+          {
+            "member_id": "MB-231",
+            "first_name": "Karim",
+            "last_name": "Guerin",
+            "joined_at": "28/02/2026",
+            "active": true,
+            "email": "karim.guerin@example.org"
+          },
+          {
+            "member_id": "MB-232",
+            "first_name": "Paul",
+            "last_name": "Barbier",
+            "joined_at": "18/02/2024",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-233",
+            "first_name": "Nora",
+            "last_name": "Marchand",
+            "joined_at": "01/01/2025",
+            "active": true,
+            "email": "nora.marchand@example.org"
+          },
+          {
+            "member_id": "MB-234",
+            "first_name": "Sarah",
+            "last_name": "Moreau",
+            "joined_at": "24/10/2023",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-235",
+            "first_name": "Léa",
+            "last_name": "Mercier",
+            "joined_at": "19/05/2026",
+            "active": true
+          },
+          {
+            "member_id": "MB-236",
+            "first_name": "Julien",
+            "last_name": "Lefèvre",
+            "joined_at": "07/11/2022",
+            "active": true,
+            "email": "julien.lefevre@example.org"
+          },
+          {
+            "member_id": "MB-237",
+            "first_name": "Yanis",
+            "last_name": "Robin",
+            "joined_at": "27/10/2025",
+            "active": true,
+            "email": "yanis.robin@example.org"
+          },
+          {
+            "member_id": "MB-238",
+            "first_name": "Paul",
+            "last_name": "Moreau",
+            "joined_at": "30/06/2025",
+            "active": true,
+            "email": "paul.moreau@example.org"
+          },
+          {
+            "member_id": "MB-239",
+            "first_name": "Sarah",
+            "last_name": "Perrin",
+            "joined_at": "15/03/2026",
+            "active": true,
+            "email": "sarah.perrin@example.org"
+          },
+          {
+            "member_id": "MB-240",
+            "first_name": "Léa",
+            "last_name": "Perrin",
+            "joined_at": "05/09/2024",
+            "active": true,
+            "email": "lea.perrin@example.org"
+          },
+          {
+            "member_id": "MB-241",
+            "first_name": "Emma",
+            "last_name": "Lefèvre",
+            "joined_at": "04/04/2026",
+            "active": true
+          },
+          {
+            "member_id": "MB-242",
+            "first_name": "Paul",
+            "last_name": "Guerin",
+            "joined_at": "18/03/2026",
+            "active": true,
+            "email": "paul.guerin@example.org"
+          },
+          {
+            "member_id": "MB-243",
+            "first_name": "Léa",
+            "last_name": "Leroy",
+            "joined_at": "13/06/2026",
+            "active": true,
+            "email": "lea.leroy@example.org"
+          },
+          {
+            "member_id": "MB-244",
+            "first_name": "Hugo",
+            "last_name": "Noël",
+            "joined_at": "14/06/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-245",
+            "first_name": "Fatou",
+            "last_name": "Roux",
+            "joined_at": "06/06/2025",
+            "active": true,
+            "email": "fatou.roux@example.org"
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_members",
+      "arguments": {
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"member_id\": \"MB-200\",\n      \"first_name\": \"Yanis\",\n      \"last_name\": \"Robin\",\n      \"joined_at\": \"05/12/2024\",\n      \"active\": true,\n      \"email\": \"yanis.robin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-201\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"30/08/2026\",\n      \"active\": true,\n      \"email\": \"mehdi.moreau@example.org\"\n    },\n    {\n      \"member_id\": \"MB-202\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Noël\",\n      \"joined_at\": \"13/01/2024\",\n      \"active\": true,\n      \"email\": \"nora.noel@example.org\"\n    },\n    {\n      \"member_id\": \"MB-203\",\n      \"first_name\": \"Antoine\",\n      \"last_name\": \"Mercier\",\n      \"joined_at\": \"21/02/2022\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-204\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"29/08/2025\",\n      \"active\": true,\n      \"email\": \"lea.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-205\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Marchand\",\n      \"joined_at\": \"13/04/2022\",\n      \"active\": false,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-206\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"25/02/2023\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-207\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"23/12/2025\",\n      \"active\": true,\n      \"email\": \"mehdi.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-208\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"09/04/2022\",\n      \"active\": true,\n      \"email\": \"paul.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-209\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Girard\",\n      \"joined_at\": \"21/08/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-210\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"07/03/2023\",\n      \"active\": true,\n      \"email\": \"lucas.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-211\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Bernard\",\n      \"joined_at\": \"03/03/2024\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-212\",\n      \"first_name\": \"Manon\",\n      \"last_name\": \"Fontaine\",\n      \"joined_at\": \"01/03/2026\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-213\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"02/03/2026\",\n      \"active\": true,\n      \"email\": \"lea.lefevre@example.org\"\n    },\n    {\n      \"member_id\": \"MB-214\",\n      \"first_name\": \"Chloé\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"09/07/2023\",\n      \"active\": true,\n      \"email\": \"chloe.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-215\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"19/03/2023\",\n      \"active\": false,\n      \"email\": \"lea.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-216\",\n      \"first_name\": \"Thomas\",\n      \"last_name\": \"Dumas\",\n      \"joined_at\": \"15/08/2026\",\n      \"active\": true,\n      \"email\": \"thomas.dumas@example.org\"\n    },\n    {\n      \"member_id\": \"MB-217\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"13/04/2026\",\n      \"active\": true,\n      \"email\": \"hugo.barbier@example.org\"\n    },\n    {\n      \"member_id\": \"MB-218\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"11/08/2025\",\n      \"active\": true,\n      \"email\": \"paul.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-219\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"10/09/2025\",\n      \"active\": false,\n      \"email\": \"sarah.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-220\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"14/07/2025\",\n      \"active\": true,\n      \"email\": \"hugo.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-221\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Dumas\",\n      \"joined_at\": \"16/04/2023\",\n      \"active\": true,\n      \"email\": \"paul.dumas@example.org\"\n    },\n    {\n      \"member_id\": \"MB-222\",\n      \"first_name\": \"Mehdi\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"13/04/2022\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-223\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Marchand\",\n      \"joined_at\": \"05/02/2024\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-224\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"08/09/2026\",\n      \"active\": true,\n      \"email\": \"sarah.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-225\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Blanc\",\n      \"joined_at\": \"17/04/2024\",\n      \"active\": true,\n      \"email\": \"paul.blanc@example.org\"\n    },\n    {\n      \"member_id\": \"MB-226\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"18/01/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-227\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"07/04/2024\",\n      \"active\": true,\n      \"email\": \"hugo.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-228\",\n      \"first_name\": \"Lucas\",\n      \"last_name\": \"Fontaine\",\n      \"joined_at\": \"18/07/2024\",\n      \"active\": true,\n      \"email\": \"lucas.fontaine@example.org\"\n    },\n    {\n      \"member_id\": \"MB-229\",\n      \"first_name\": \"Camille\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"04/04/2023\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-230\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"16/01/2023\",\n      \"active\": true,\n      \"email\": \"nora.roux@example.org\"\n    },\n    {\n      \"member_id\": \"MB-231\",\n      \"first_name\": \"Karim\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"28/02/2026\",\n      \"active\": true,\n      \"email\": \"karim.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-232\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Barbier\",\n      \"joined_at\": \"18/02/2024\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-233\",\n      \"first_name\": \"Nora\",\n      \"last_name\": \"Marchand\",\n      \"joined_at\": \"01/01/2025\",\n      \"active\": true,\n      \"email\": \"nora.marchand@example.org\"\n    },\n    {\n      \"member_id\": \"MB-234\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"24/10/2023\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-235\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Mercier\",\n      \"joined_at\": \"19/05/2026\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-236\",\n      \"first_name\": \"Julien\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"07/11/2022\",\n      \"active\": true,\n      \"email\": \"julien.lefevre@example.org\"\n    },\n    {\n      \"member_id\": \"MB-237\",\n      \"first_name\": \"Yanis\",\n      \"last_name\": \"Robin\",\n      \"joined_at\": \"27/10/2025\",\n      \"active\": true,\n      \"email\": \"yanis.robin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-238\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Moreau\",\n      \"joined_at\": \"30/06/2025\",\n      \"active\": true,\n      \"email\": \"paul.moreau@example.org\"\n    },\n    {\n      \"member_id\": \"MB-239\",\n      \"first_name\": \"Sarah\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"15/03/2026\",\n      \"active\": true,\n      \"email\": \"sarah.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-240\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Perrin\",\n      \"joined_at\": \"05/09/2024\",\n      \"active\": true,\n      \"email\": \"lea.perrin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-241\",\n      \"first_name\": \"Emma\",\n      \"last_name\": \"Lefèvre\",\n      \"joined_at\": \"04/04/2026\",\n      \"active\": true\n    },\n    {\n      \"member_id\": \"MB-242\",\n      \"first_name\": \"Paul\",\n      \"last_name\": \"Guerin\",\n      \"joined_at\": \"18/03/2026\",\n      \"active\": true,\n      \"email\": \"paul.guerin@example.org\"\n    },\n    {\n      \"member_id\": \"MB-243\",\n      \"first_name\": \"Léa\",\n      \"last_name\": \"Leroy\",\n      \"joined_at\": \"13/06/2026\",\n      \"active\": true,\n      \"email\": \"lea.leroy@example.org\"\n    },\n    {\n      \"member_id\": \"MB-244\",\n      \"first_name\": \"Hugo\",\n      \"last_name\": \"Noël\",\n      \"joined_at\": \"14/06/2025\",\n      \"active\": true,\n      \"email\": null\n    },\n    {\n      \"member_id\": \"MB-245\",\n      \"first_name\": \"Fatou\",\n      \"last_name\": \"Roux\",\n      \"joined_at\": \"06/06/2025\",\n      \"active\": true,\n      \"email\": \"fatou.roux@example.org\"\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "member_id": "MB-200",
+            "first_name": "Yanis",
+            "last_name": "Robin",
+            "joined_at": "05/12/2024",
+            "active": true,
+            "email": "yanis.robin@example.org"
+          },
+          {
+            "member_id": "MB-201",
+            "first_name": "Mehdi",
+            "last_name": "Moreau",
+            "joined_at": "30/08/2026",
+            "active": true,
+            "email": "mehdi.moreau@example.org"
+          },
+          {
+            "member_id": "MB-202",
+            "first_name": "Nora",
+            "last_name": "Noël",
+            "joined_at": "13/01/2024",
+            "active": true,
+            "email": "nora.noel@example.org"
+          },
+          {
+            "member_id": "MB-203",
+            "first_name": "Antoine",
+            "last_name": "Mercier",
+            "joined_at": "21/02/2022",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-204",
+            "first_name": "Léa",
+            "last_name": "Guerin",
+            "joined_at": "29/08/2025",
+            "active": true,
+            "email": "lea.guerin@example.org"
+          },
+          {
+            "member_id": "MB-205",
+            "first_name": "Lucas",
+            "last_name": "Marchand",
+            "joined_at": "13/04/2022",
+            "active": false,
+            "email": null
+          },
+          {
+            "member_id": "MB-206",
+            "first_name": "Emma",
+            "last_name": "Barbier",
+            "joined_at": "25/02/2023",
+            "active": true
+          },
+          {
+            "member_id": "MB-207",
+            "first_name": "Mehdi",
+            "last_name": "Blanc",
+            "joined_at": "23/12/2025",
+            "active": true,
+            "email": "mehdi.blanc@example.org"
+          },
+          {
+            "member_id": "MB-208",
+            "first_name": "Paul",
+            "last_name": "Leroy",
+            "joined_at": "09/04/2022",
+            "active": true,
+            "email": "paul.leroy@example.org"
+          },
+          {
+            "member_id": "MB-209",
+            "first_name": "Emma",
+            "last_name": "Girard",
+            "joined_at": "21/08/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-210",
+            "first_name": "Lucas",
+            "last_name": "Blanc",
+            "joined_at": "07/03/2023",
+            "active": true,
+            "email": "lucas.blanc@example.org"
+          },
+          {
+            "member_id": "MB-211",
+            "first_name": "Paul",
+            "last_name": "Bernard",
+            "joined_at": "03/03/2024",
+            "active": true
+          },
+          {
+            "member_id": "MB-212",
+            "first_name": "Manon",
+            "last_name": "Fontaine",
+            "joined_at": "01/03/2026",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-213",
+            "first_name": "Léa",
+            "last_name": "Lefèvre",
+            "joined_at": "02/03/2026",
+            "active": true,
+            "email": "lea.lefevre@example.org"
+          },
+          {
+            "member_id": "MB-214",
+            "first_name": "Chloé",
+            "last_name": "Roux",
+            "joined_at": "09/07/2023",
+            "active": true,
+            "email": "chloe.roux@example.org"
+          },
+          {
+            "member_id": "MB-215",
+            "first_name": "Léa",
+            "last_name": "Perrin",
+            "joined_at": "19/03/2023",
+            "active": false,
+            "email": "lea.perrin@example.org"
+          },
+          {
+            "member_id": "MB-216",
+            "first_name": "Thomas",
+            "last_name": "Dumas",
+            "joined_at": "15/08/2026",
+            "active": true,
+            "email": "thomas.dumas@example.org"
+          },
+          {
+            "member_id": "MB-217",
+            "first_name": "Hugo",
+            "last_name": "Barbier",
+            "joined_at": "13/04/2026",
+            "active": true,
+            "email": "hugo.barbier@example.org"
+          },
+          {
+            "member_id": "MB-218",
+            "first_name": "Paul",
+            "last_name": "Roux",
+            "joined_at": "11/08/2025",
+            "active": true,
+            "email": "paul.roux@example.org"
+          },
+          {
+            "member_id": "MB-219",
+            "first_name": "Sarah",
+            "last_name": "Guerin",
+            "joined_at": "10/09/2025",
+            "active": false,
+            "email": "sarah.guerin@example.org"
+          },
+          {
+            "member_id": "MB-220",
+            "first_name": "Hugo",
+            "last_name": "Leroy",
+            "joined_at": "14/07/2025",
+            "active": true,
+            "email": "hugo.leroy@example.org"
+          },
+          {
+            "member_id": "MB-221",
+            "first_name": "Paul",
+            "last_name": "Dumas",
+            "joined_at": "16/04/2023",
+            "active": true,
+            "email": "paul.dumas@example.org"
+          },
+          {
+            "member_id": "MB-222",
+            "first_name": "Mehdi",
+            "last_name": "Moreau",
+            "joined_at": "13/04/2022",
+            "active": true
+          },
+          {
+            "member_id": "MB-223",
+            "first_name": "Nora",
+            "last_name": "Marchand",
+            "joined_at": "05/02/2024",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-224",
+            "first_name": "Sarah",
+            "last_name": "Perrin",
+            "joined_at": "08/09/2026",
+            "active": true,
+            "email": "sarah.perrin@example.org"
+          },
+          {
+            "member_id": "MB-225",
+            "first_name": "Paul",
+            "last_name": "Blanc",
+            "joined_at": "17/04/2024",
+            "active": true,
+            "email": "paul.blanc@example.org"
+          },
+          {
+            "member_id": "MB-226",
+            "first_name": "Lucas",
+            "last_name": "Moreau",
+            "joined_at": "18/01/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-227",
+            "first_name": "Hugo",
+            "last_name": "Perrin",
+            "joined_at": "07/04/2024",
+            "active": true,
+            "email": "hugo.perrin@example.org"
+          },
+          {
+            "member_id": "MB-228",
+            "first_name": "Lucas",
+            "last_name": "Fontaine",
+            "joined_at": "18/07/2024",
+            "active": true,
+            "email": "lucas.fontaine@example.org"
+          },
+          {
+            "member_id": "MB-229",
+            "first_name": "Camille",
+            "last_name": "Guerin",
+            "joined_at": "04/04/2023",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-230",
+            "first_name": "Nora",
+            "last_name": "Roux",
+            "joined_at": "16/01/2023",
+            "active": true,
+            "email": "nora.roux@example.org"
+          },
+          {
+            "member_id": "MB-231",
+            "first_name": "Karim",
+            "last_name": "Guerin",
+            "joined_at": "28/02/2026",
+            "active": true,
+            "email": "karim.guerin@example.org"
+          },
+          {
+            "member_id": "MB-232",
+            "first_name": "Paul",
+            "last_name": "Barbier",
+            "joined_at": "18/02/2024",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-233",
+            "first_name": "Nora",
+            "last_name": "Marchand",
+            "joined_at": "01/01/2025",
+            "active": true,
+            "email": "nora.marchand@example.org"
+          },
+          {
+            "member_id": "MB-234",
+            "first_name": "Sarah",
+            "last_name": "Moreau",
+            "joined_at": "24/10/2023",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-235",
+            "first_name": "Léa",
+            "last_name": "Mercier",
+            "joined_at": "19/05/2026",
+            "active": true
+          },
+          {
+            "member_id": "MB-236",
+            "first_name": "Julien",
+            "last_name": "Lefèvre",
+            "joined_at": "07/11/2022",
+            "active": true,
+            "email": "julien.lefevre@example.org"
+          },
+          {
+            "member_id": "MB-237",
+            "first_name": "Yanis",
+            "last_name": "Robin",
+            "joined_at": "27/10/2025",
+            "active": true,
+            "email": "yanis.robin@example.org"
+          },
+          {
+            "member_id": "MB-238",
+            "first_name": "Paul",
+            "last_name": "Moreau",
+            "joined_at": "30/06/2025",
+            "active": true,
+            "email": "paul.moreau@example.org"
+          },
+          {
+            "member_id": "MB-239",
+            "first_name": "Sarah",
+            "last_name": "Perrin",
+            "joined_at": "15/03/2026",
+            "active": true,
+            "email": "sarah.perrin@example.org"
+          },
+          {
+            "member_id": "MB-240",
+            "first_name": "Léa",
+            "last_name": "Perrin",
+            "joined_at": "05/09/2024",
+            "active": true,
+            "email": "lea.perrin@example.org"
+          },
+          {
+            "member_id": "MB-241",
+            "first_name": "Emma",
+            "last_name": "Lefèvre",
+            "joined_at": "04/04/2026",
+            "active": true
+          },
+          {
+            "member_id": "MB-242",
+            "first_name": "Paul",
+            "last_name": "Guerin",
+            "joined_at": "18/03/2026",
+            "active": true,
+            "email": "paul.guerin@example.org"
+          },
+          {
+            "member_id": "MB-243",
+            "first_name": "Léa",
+            "last_name": "Leroy",
+            "joined_at": "13/06/2026",
+            "active": true,
+            "email": "lea.leroy@example.org"
+          },
+          {
+            "member_id": "MB-244",
+            "first_name": "Hugo",
+            "last_name": "Noël",
+            "joined_at": "14/06/2025",
+            "active": true,
+            "email": null
+          },
+          {
+            "member_id": "MB-245",
+            "first_name": "Fatou",
+            "last_name": "Roux",
+            "joined_at": "06/06/2025",
+            "active": true,
+            "email": "fatou.roux@example.org"
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "get_member",
+      "arguments": {
+        "memberId": "MB-206"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member\": {\n    \"member_id\": \"MB-206\",\n    \"first_name\": \"Emma\",\n    \"last_name\": \"Barbier\",\n    \"joined_at\": \"25/02/2023\",\n    \"active\": true\n  }\n}",
+      "parsed": {
+        "ok": true,
+        "member": {
+          "member_id": "MB-206",
+          "first_name": "Emma",
+          "last_name": "Barbier",
+          "joined_at": "25/02/2023",
+          "active": true
+        }
+      }
+    },
+    {
+      "tool": "get_member",
+      "arguments": {
+        "memberId": "MB-203"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member\": {\n    \"member_id\": \"MB-203\",\n    \"first_name\": \"Antoine\",\n    \"last_name\": \"Mercier\",\n    \"joined_at\": \"21/02/2022\",\n    \"active\": true,\n    \"email\": null\n  }\n}",
+      "parsed": {
+        "ok": true,
+        "member": {
+          "member_id": "MB-203",
+          "first_name": "Antoine",
+          "last_name": "Mercier",
+          "joined_at": "21/02/2022",
+          "active": true,
+          "email": null
+        }
+      }
+    },
+    {
+      "tool": "get_member",
+      "arguments": {
+        "member_id": "MB-214"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": false,\n  \"error\": \"invalid request\"\n}",
+      "parsed": {
+        "ok": false,
+        "error": "invalid request"
+      }
+    },
+    {
+      "tool": "get_member",
+      "arguments": {
+        "memberId": "MB-999"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": false,\n  \"error\": \"not found\"\n}",
+      "parsed": {
+        "ok": false,
+        "error": "not found"
+      }
+    },
+    {
+      "tool": "get_book",
+      "arguments": {
+        "book_id": "BK-9999"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": false,\n  \"error\": \"not found\"\n}",
+      "parsed": {
+        "ok": false,
+        "error": "not found"
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "fleuve"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1000\",\n      \"title\": \"Le Voyage du fleuve (tome 2)\",\n      \"author\": \"Hugo Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-04-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1001\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Karim Marchand\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-01-13T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1007\",\n      \"title\": \"Les Ombres du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2026-05-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1020\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Yanis Guerin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-09-23T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1049\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Paul Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1059\",\n      \"title\": \"Une Histoire du fleuve\",\n      \"author\": \"Paul Marchand\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-08-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1062\",\n      \"title\": \"La Maison du fleuve\",\n      \"author\": \"Camille Perrin\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-06-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1070\",\n      \"title\": \"Le Jardin du fleuve\",\n      \"author\": \"Léa Noël\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-06-28T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1078\",\n      \"title\": \"Un Été du fleuve\",\n      \"author\": \"Thomas Leroy\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-02-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1079\",\n      \"title\": \"Le Voyage du fleuve\",\n      \"author\": \"Thomas Roux\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-11-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1098\",\n      \"title\": \"La Frontière du fleuve\",\n      \"author\": \"Yanis Barbier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-07-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1106\",\n      \"title\": \"Les Heures du fleuve\",\n      \"author\": \"Yanis Marchand\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-08-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1121\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Emma Blanc\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-11-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1133\",\n      \"title\": \"La Traversée du fleuve\",\n      \"author\": \"Paul Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-03-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1135\",\n      \"title\": \"Le Jardin du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-01-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1151\",\n      \"title\": \"Un Été du fleuve\",\n      \"author\": \"Yanis Marchand\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-08-10T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1173\",\n      \"title\": \"La Nuit du fleuve\",\n      \"author\": \"Thomas Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-12-24T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"MjA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1000",
+            "title": "Le Voyage du fleuve (tome 2)",
+            "author": "Hugo Perrin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2023-04-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1001",
+            "title": "Le Chant du fleuve",
+            "author": "Karim Marchand",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2021-01-13T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1007",
+            "title": "Les Ombres du fleuve",
+            "author": "Paul Guerin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2026-05-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1020",
+            "title": "Le Chant du fleuve",
+            "author": "Yanis Guerin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-09-23T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1049",
+            "title": "Les Mains du fleuve",
+            "author": "Paul Perrin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1059",
+            "title": "Une Histoire du fleuve",
+            "author": "Paul Marchand",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2022-08-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1062",
+            "title": "La Maison du fleuve",
+            "author": "Camille Perrin",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2021-06-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1070",
+            "title": "Le Jardin du fleuve",
+            "author": "Léa Noël",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2026-06-28T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1078",
+            "title": "Un Été du fleuve",
+            "author": "Thomas Leroy",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2023-02-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1079",
+            "title": "Le Voyage du fleuve",
+            "author": "Thomas Roux",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-11-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1098",
+            "title": "La Frontière du fleuve",
+            "author": "Yanis Barbier",
+            "genre": "jeunesse",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2024-07-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1106",
+            "title": "Les Heures du fleuve",
+            "author": "Yanis Marchand",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2021-08-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1121",
+            "title": "Les Mains du fleuve",
+            "author": "Emma Blanc",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2021-11-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1133",
+            "title": "La Traversée du fleuve",
+            "author": "Paul Mercier",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2026-03-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1135",
+            "title": "Le Jardin du fleuve",
+            "author": "Paul Guerin",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2023-01-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1151",
+            "title": "Un Été du fleuve",
+            "author": "Yanis Marchand",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2023-08-10T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1173",
+            "title": "La Nuit du fleuve",
+            "author": "Thomas Perrin",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2021-12-24T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "MjA="
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "FLEUVE"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1000\",\n      \"title\": \"Le Voyage du fleuve (tome 2)\",\n      \"author\": \"Hugo Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-04-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1001\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Karim Marchand\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-01-13T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1007\",\n      \"title\": \"Les Ombres du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2026-05-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1020\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Yanis Guerin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-09-23T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1049\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Paul Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1059\",\n      \"title\": \"Une Histoire du fleuve\",\n      \"author\": \"Paul Marchand\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-08-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1062\",\n      \"title\": \"La Maison du fleuve\",\n      \"author\": \"Camille Perrin\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-06-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1070\",\n      \"title\": \"Le Jardin du fleuve\",\n      \"author\": \"Léa Noël\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-06-28T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1078\",\n      \"title\": \"Un Été du fleuve\",\n      \"author\": \"Thomas Leroy\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-02-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1079\",\n      \"title\": \"Le Voyage du fleuve\",\n      \"author\": \"Thomas Roux\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-11-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1098\",\n      \"title\": \"La Frontière du fleuve\",\n      \"author\": \"Yanis Barbier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-07-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1106\",\n      \"title\": \"Les Heures du fleuve\",\n      \"author\": \"Yanis Marchand\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-08-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1121\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Emma Blanc\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-11-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1133\",\n      \"title\": \"La Traversée du fleuve\",\n      \"author\": \"Paul Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-03-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1135\",\n      \"title\": \"Le Jardin du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-01-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1151\",\n      \"title\": \"Un Été du fleuve\",\n      \"author\": \"Yanis Marchand\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-08-10T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1173\",\n      \"title\": \"La Nuit du fleuve\",\n      \"author\": \"Thomas Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-12-24T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"MjA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1000",
+            "title": "Le Voyage du fleuve (tome 2)",
+            "author": "Hugo Perrin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2023-04-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1001",
+            "title": "Le Chant du fleuve",
+            "author": "Karim Marchand",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2021-01-13T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1007",
+            "title": "Les Ombres du fleuve",
+            "author": "Paul Guerin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2026-05-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1020",
+            "title": "Le Chant du fleuve",
+            "author": "Yanis Guerin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-09-23T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1049",
+            "title": "Les Mains du fleuve",
+            "author": "Paul Perrin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1059",
+            "title": "Une Histoire du fleuve",
+            "author": "Paul Marchand",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2022-08-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1062",
+            "title": "La Maison du fleuve",
+            "author": "Camille Perrin",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2021-06-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1070",
+            "title": "Le Jardin du fleuve",
+            "author": "Léa Noël",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2026-06-28T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1078",
+            "title": "Un Été du fleuve",
+            "author": "Thomas Leroy",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2023-02-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1079",
+            "title": "Le Voyage du fleuve",
+            "author": "Thomas Roux",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-11-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1098",
+            "title": "La Frontière du fleuve",
+            "author": "Yanis Barbier",
+            "genre": "jeunesse",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2024-07-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1106",
+            "title": "Les Heures du fleuve",
+            "author": "Yanis Marchand",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2021-08-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1121",
+            "title": "Les Mains du fleuve",
+            "author": "Emma Blanc",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2021-11-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1133",
+            "title": "La Traversée du fleuve",
+            "author": "Paul Mercier",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2026-03-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1135",
+            "title": "Le Jardin du fleuve",
+            "author": "Paul Guerin",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2023-01-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1151",
+            "title": "Un Été du fleuve",
+            "author": "Yanis Marchand",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2023-08-10T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1173",
+            "title": "La Nuit du fleuve",
+            "author": "Thomas Perrin",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2021-12-24T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "MjA="
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "memoire"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"MjA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "MjA="
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "mémoire"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1003\",\n      \"title\": \"La Mémoire au loin\",\n      \"author\": \"Lucas Noël\",\n      \"genre\": \"bd\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-06-09T09:00:00.000Z\",\n      \"archived\": true\n    },\n    {\n      \"book_id\": \"BK-1013\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Yanis Moreau\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-05-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1030\",\n      \"title\": \"La Mémoire du Nord\",\n      \"author\": \"Léa Barbier\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1040\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Chloé Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-05-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1055\",\n      \"title\": \"La Mémoire perdues\",\n      \"author\": \"Antoine Bernard\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-08-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1103\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Julien Robin\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-11-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1148\",\n      \"title\": \"La Mémoire du dimanche\",\n      \"author\": \"Emma Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-02-24T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"MjA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1003",
+            "title": "La Mémoire au loin",
+            "author": "Lucas Noël",
+            "genre": "bd",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-06-09T09:00:00.000Z",
+            "archived": true
+          },
+          {
+            "book_id": "BK-1013",
+            "title": "La Mémoire de septembre",
+            "author": "Yanis Moreau",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-05-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1030",
+            "title": "La Mémoire du Nord",
+            "author": "Léa Barbier",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2022-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1040",
+            "title": "La Mémoire de septembre",
+            "author": "Chloé Bernard",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-05-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1055",
+            "title": "La Mémoire perdues",
+            "author": "Antoine Bernard",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2021-08-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1103",
+            "title": "La Mémoire de septembre",
+            "author": "Julien Robin",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-11-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1148",
+            "title": "La Mémoire du dimanche",
+            "author": "Emma Mercier",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2024-02-24T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "MjA="
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "Perrin",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1000\",\n      \"title\": \"Le Voyage du fleuve (tome 2)\",\n      \"author\": \"Hugo Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-04-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1023\",\n      \"title\": \"Le Voyage des autres\",\n      \"author\": \"Mehdi Perrin\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-02-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1049\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Paul Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1051\",\n      \"title\": \"Le Chant de Marseille (tome 2)\",\n      \"author\": \"Antoine Perrin\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-04-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1057\",\n      \"title\": \"Les Racines de verre\",\n      \"author\": \"Léa Perrin\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-06-22T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1062\",\n      \"title\": \"La Maison du fleuve\",\n      \"author\": \"Camille Perrin\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-06-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1075\",\n      \"title\": \"Le Retour des autres\",\n      \"author\": \"Yanis Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-04-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1083\",\n      \"title\": \"Les Racines du dimanche\",\n      \"author\": \"Sarah Perrin\",\n      \"genre\": \"bd\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-08-23T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1102\",\n      \"title\": \"Les Racines du dimanche (tome 2)\",\n      \"author\": \"Fatou Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-01-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1109\",\n      \"title\": \"Le Retour perdues\",\n      \"author\": \"Thomas Perrin\",\n      \"genre\": \"policier\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-08-28T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1131\",\n      \"title\": \"La Nuit perdues\",\n      \"author\": \"Manon Perrin\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-01-11T09:00:00.000Z\",\n      \"archived\": true\n    },\n    {\n      \"book_id\": \"BK-1164\",\n      \"title\": \"Le Jardin de verre\",\n      \"author\": \"Léa Perrin\",\n      \"genre\": \"essai\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-05-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1172\",\n      \"title\": \"La Maison au loin\",\n      \"author\": \"Camille Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-05-29T09:00:00.000Z\",\n      \"archived\": true\n    },\n    {\n      \"book_id\": \"BK-1173\",\n      \"title\": \"La Nuit du fleuve\",\n      \"author\": \"Thomas Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-12-24T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1000",
+            "title": "Le Voyage du fleuve (tome 2)",
+            "author": "Hugo Perrin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2023-04-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1023",
+            "title": "Le Voyage des autres",
+            "author": "Mehdi Perrin",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-02-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1049",
+            "title": "Les Mains du fleuve",
+            "author": "Paul Perrin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1051",
+            "title": "Le Chant de Marseille (tome 2)",
+            "author": "Antoine Perrin",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2022-04-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1057",
+            "title": "Les Racines de verre",
+            "author": "Léa Perrin",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2024-06-22T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1062",
+            "title": "La Maison du fleuve",
+            "author": "Camille Perrin",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2021-06-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1075",
+            "title": "Le Retour des autres",
+            "author": "Yanis Perrin",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2026-04-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1083",
+            "title": "Les Racines du dimanche",
+            "author": "Sarah Perrin",
+            "genre": "bd",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2025-08-23T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1102",
+            "title": "Les Racines du dimanche (tome 2)",
+            "author": "Fatou Perrin",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-01-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1109",
+            "title": "Le Retour perdues",
+            "author": "Thomas Perrin",
+            "genre": "policier",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2024-08-28T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1131",
+            "title": "La Nuit perdues",
+            "author": "Manon Perrin",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2021-01-11T09:00:00.000Z",
+            "archived": true
+          },
+          {
+            "book_id": "BK-1164",
+            "title": "Le Jardin de verre",
+            "author": "Léa Perrin",
+            "genre": "essai",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2023-05-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1172",
+            "title": "La Maison au loin",
+            "author": "Camille Perrin",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2024-05-29T09:00:00.000Z",
+            "archived": true
+          },
+          {
+            "book_id": "BK-1173",
+            "title": "La Nuit du fleuve",
+            "author": "Thomas Perrin",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2021-12-24T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_books",
+      "arguments": {
+        "genre": "Roman",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_books",
+      "arguments": {
+        "genre": "poesie",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_books",
+      "arguments": {
+        "genre": "science-fiction",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_books",
+      "arguments": {
+        "limit": 50,
+        "start_key": "MjAw"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"MjUw\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "MjUw"
+      }
+    },
+    {
+      "tool": "list_books",
+      "arguments": {
+        "limit": 50,
+        "start_key": "pas-une-cle"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1000\",\n      \"title\": \"Le Voyage du fleuve (tome 2)\",\n      \"author\": \"Hugo Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-04-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1001\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Karim Marchand\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-01-13T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1005\",\n      \"title\": \"Un Été perdues\",\n      \"author\": \"Sarah Lefèvre\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-02-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1006\",\n      \"title\": \"Un Été du Nord\",\n      \"author\": \"Antoine Marchand\",\n      \"genre\": \"policier\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-03-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1007\",\n      \"title\": \"Les Ombres du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2026-05-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1008\",\n      \"title\": \"Les Heures de pierre\",\n      \"author\": \"Emma Bernard\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-08-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1009\",\n      \"title\": \"Le Voyage des autres\",\n      \"author\": \"Karim Fontaine\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-06-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1010\",\n      \"title\": \"Les Racines de pierre\",\n      \"author\": \"Thomas Guerin\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-09-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1011\",\n      \"title\": \"Un Été en hiver\",\n      \"author\": \"Mehdi Fontaine\",\n      \"genre\": \"bd\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-03-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1012\",\n      \"title\": \"Le Retour des autres\",\n      \"author\": \"Léa Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-07-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1013\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Yanis Moreau\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-05-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1014\",\n      \"title\": \"Le Chant au loin\",\n      \"author\": \"Mehdi Mercier\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-20T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1015\",\n      \"title\": \"La Nuit en hiver\",\n      \"author\": \"Sarah Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2022-04-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1016\",\n      \"title\": \"Les Racines oubliées\",\n      \"author\": \"Hugo Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-02-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1017\",\n      \"title\": \"Le Chant oubliées (tome 2)\",\n      \"author\": \"Manon Leroy\",\n      \"genre\": \"bd\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1020\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Yanis Guerin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-09-23T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1021\",\n      \"title\": \"La Nuit en hiver\",\n      \"author\": \"Sarah Blanc\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-10-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1022\",\n      \"title\": \"La Maison de septembre\",\n      \"author\": \"Emma Marchand\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-07T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1023\",\n      \"title\": \"Le Voyage des autres\",\n      \"author\": \"Mehdi Perrin\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-02-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1024\",\n      \"title\": \"La Maison de verre\",\n      \"author\": \"Paul Noël\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2026-09-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1025\",\n      \"title\": \"Les Mains au loin\",\n      \"author\": \"Manon Guerin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-05-12T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1026\",\n      \"title\": \"Les Mains au loin\",\n      \"author\": \"Léa Guerin\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2020-11-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1027\",\n      \"title\": \"La Maison sans fin\",\n      \"author\": \"Camille Robin\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-10-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1028\",\n      \"title\": \"Le Retour de verre\",\n      \"author\": \"Paul Roux\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2022-09-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1029\",\n      \"title\": \"La Frontière du libraire\",\n      \"author\": \"Antoine Dumas\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-11-04T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1030\",\n      \"title\": \"La Mémoire du Nord\",\n      \"author\": \"Léa Barbier\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1031\",\n      \"title\": \"La Frontière sans fin\",\n      \"author\": \"Thomas Dumas\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-03-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1032\",\n      \"title\": \"Un Été perdues\",\n      \"author\": \"Hugo Blanc\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-11-15T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1033\",\n      \"title\": \"Le Retour de septembre\",\n      \"author\": \"Antoine Lefèvre\",\n      \"genre\": \"essai\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-04-28T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1034\",\n      \"title\": \"Un Été au loin (tome 2)\",\n      \"author\": \"Inès Bernard\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-08-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1035\",\n      \"title\": \"Le Voyage sans fin\",\n      \"author\": \"Paul Mercier\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-10-31T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1036\",\n      \"title\": \"Le Dernier de Marseille\",\n      \"author\": \"Léa Mercier\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-05-02T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1037\",\n      \"title\": \"Les Ombres de Marseille\",\n      \"author\": \"Thomas Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-06-10T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1039\",\n      \"title\": \"Un Été sans fin\",\n      \"author\": \"Léa Lefèvre\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-03-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1040\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Chloé Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-05-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1042\",\n      \"title\": \"Le Dernier de verre\",\n      \"author\": \"Karim Barbier\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-11-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1043\",\n      \"title\": \"Les Mains de septembre\",\n      \"author\": \"Antoine Robin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-05-13T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1044\",\n      \"title\": \"Une Histoire du dimanche\",\n      \"author\": \"Manon Robin\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-12-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1045\",\n      \"title\": \"Une Histoire sans fin\",\n      \"author\": \"Thomas Roux\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-09-15T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1046\",\n      \"title\": \"Les Racines du dimanche\",\n      \"author\": \"Emma Barbier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-03-29T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1048\",\n      \"title\": \"Une Histoire en hiver\",\n      \"author\": \"Léa Robin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-06-30T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1049\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Paul Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1050\",\n      \"title\": \"Le Silence oubliées\",\n      \"author\": \"Julien Blanc\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-01-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1051\",\n      \"title\": \"Le Chant de Marseille (tome 2)\",\n      \"author\": \"Antoine Perrin\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-04-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1052\",\n      \"title\": \"La Traversée sans fin\",\n      \"author\": \"Hugo Dumas\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-02-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1053\",\n      \"title\": \"La Nuit des autres\",\n      \"author\": \"Antoine Bernard\",\n      \"genre\": \"roman\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-01-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1054\",\n      \"title\": \"La Traversée des autres\",\n      \"author\": \"Chloé Fontaine\",\n      \"genre\": \"bd\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-09-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1055\",\n      \"title\": \"La Mémoire perdues\",\n      \"author\": \"Antoine Bernard\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-08-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1056\",\n      \"title\": \"Le Voyage de pierre\",\n      \"author\": \"Mehdi Leroy\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-10-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1057\",\n      \"title\": \"Les Racines de verre\",\n      \"author\": \"Léa Perrin\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-06-22T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1000",
+            "title": "Le Voyage du fleuve (tome 2)",
+            "author": "Hugo Perrin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2023-04-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1001",
+            "title": "Le Chant du fleuve",
+            "author": "Karim Marchand",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2021-01-13T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1005",
+            "title": "Un Été perdues",
+            "author": "Sarah Lefèvre",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2026-02-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1006",
+            "title": "Un Été du Nord",
+            "author": "Antoine Marchand",
+            "genre": "policier",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2026-03-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1007",
+            "title": "Les Ombres du fleuve",
+            "author": "Paul Guerin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2026-05-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1008",
+            "title": "Les Heures de pierre",
+            "author": "Emma Bernard",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2024-08-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1009",
+            "title": "Le Voyage des autres",
+            "author": "Karim Fontaine",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-06-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1010",
+            "title": "Les Racines de pierre",
+            "author": "Thomas Guerin",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2021-09-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1011",
+            "title": "Un Été en hiver",
+            "author": "Mehdi Fontaine",
+            "genre": "bd",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2022-03-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1012",
+            "title": "Le Retour des autres",
+            "author": "Léa Mercier",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2024-07-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1013",
+            "title": "La Mémoire de septembre",
+            "author": "Yanis Moreau",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-05-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1014",
+            "title": "Le Chant au loin",
+            "author": "Mehdi Mercier",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2025-09-20T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1015",
+            "title": "La Nuit en hiver",
+            "author": "Sarah Bernard",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2022-04-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1016",
+            "title": "Les Racines oubliées",
+            "author": "Hugo Bernard",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2024-02-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1017",
+            "title": "Le Chant oubliées (tome 2)",
+            "author": "Manon Leroy",
+            "genre": "bd",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-09-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1020",
+            "title": "Le Chant du fleuve",
+            "author": "Yanis Guerin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-09-23T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1021",
+            "title": "La Nuit en hiver",
+            "author": "Sarah Blanc",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2025-10-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1022",
+            "title": "La Maison de septembre",
+            "author": "Emma Marchand",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2025-09-07T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1023",
+            "title": "Le Voyage des autres",
+            "author": "Mehdi Perrin",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-02-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1024",
+            "title": "La Maison de verre",
+            "author": "Paul Noël",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2026-09-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1025",
+            "title": "Les Mains au loin",
+            "author": "Manon Guerin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2024-05-12T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1026",
+            "title": "Les Mains au loin",
+            "author": "Léa Guerin",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2020-11-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1027",
+            "title": "La Maison sans fin",
+            "author": "Camille Robin",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2024-10-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1028",
+            "title": "Le Retour de verre",
+            "author": "Paul Roux",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2022-09-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1029",
+            "title": "La Frontière du libraire",
+            "author": "Antoine Dumas",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2025-11-04T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1030",
+            "title": "La Mémoire du Nord",
+            "author": "Léa Barbier",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2022-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1031",
+            "title": "La Frontière sans fin",
+            "author": "Thomas Dumas",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-03-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1032",
+            "title": "Un Été perdues",
+            "author": "Hugo Blanc",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2023-11-15T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1033",
+            "title": "Le Retour de septembre",
+            "author": "Antoine Lefèvre",
+            "genre": "essai",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2022-04-28T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1034",
+            "title": "Un Été au loin (tome 2)",
+            "author": "Inès Bernard",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-08-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1035",
+            "title": "Le Voyage sans fin",
+            "author": "Paul Mercier",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2021-10-31T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1036",
+            "title": "Le Dernier de Marseille",
+            "author": "Léa Mercier",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2024-05-02T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1037",
+            "title": "Les Ombres de Marseille",
+            "author": "Thomas Mercier",
+            "genre": "roman",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2024-06-10T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1039",
+            "title": "Un Été sans fin",
+            "author": "Léa Lefèvre",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-03-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1040",
+            "title": "La Mémoire de septembre",
+            "author": "Chloé Bernard",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-05-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1042",
+            "title": "Le Dernier de verre",
+            "author": "Karim Barbier",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-11-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1043",
+            "title": "Les Mains de septembre",
+            "author": "Antoine Robin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2022-05-13T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1044",
+            "title": "Une Histoire du dimanche",
+            "author": "Manon Robin",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2025-12-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1045",
+            "title": "Une Histoire sans fin",
+            "author": "Thomas Roux",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2023-09-15T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1046",
+            "title": "Les Racines du dimanche",
+            "author": "Emma Barbier",
+            "genre": "jeunesse",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2021-03-29T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1048",
+            "title": "Une Histoire en hiver",
+            "author": "Léa Robin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2024-06-30T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1049",
+            "title": "Les Mains du fleuve",
+            "author": "Paul Perrin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1050",
+            "title": "Le Silence oubliées",
+            "author": "Julien Blanc",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2022-01-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1051",
+            "title": "Le Chant de Marseille (tome 2)",
+            "author": "Antoine Perrin",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2022-04-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1052",
+            "title": "La Traversée sans fin",
+            "author": "Hugo Dumas",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-02-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1053",
+            "title": "La Nuit des autres",
+            "author": "Antoine Bernard",
+            "genre": "roman",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-01-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1054",
+            "title": "La Traversée des autres",
+            "author": "Chloé Fontaine",
+            "genre": "bd",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-09-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1055",
+            "title": "La Mémoire perdues",
+            "author": "Antoine Bernard",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2021-08-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1056",
+            "title": "Le Voyage de pierre",
+            "author": "Mehdi Leroy",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2024-10-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1057",
+            "title": "Les Racines de verre",
+            "author": "Léa Perrin",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2024-06-22T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_loans",
+      "arguments": {
+        "status": "overdue",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_loans",
+      "arguments": {
+        "member_id": "MB-999",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-999"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": false,\n  \"error\": \"not found\"\n}",
+      "parsed": {
+        "ok": false,
+        "error": "not found"
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-205"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-205\",\n  \"open_loans\": 0,\n  \"overdue_duration\": 0,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-205",
+        "open_loans": 0,
+        "overdue_duration": 0,
+        "late_fee_per_day": 15,
+        "balance_due": 0
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-219"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-219\",\n  \"open_loans\": 3,\n  \"overdue_duration\": 3216,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 20.1\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-219",
+        "open_loans": 3,
+        "overdue_duration": 3216,
+        "late_fee_per_day": 15,
+        "balance_due": 20.1
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-234"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-234\",\n  \"open_loans\": 4,\n  \"overdue_duration\": 9912,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 61.95\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-234",
+        "open_loans": 4,
+        "overdue_duration": 9912,
+        "late_fee_per_day": 15,
+        "balance_due": 61.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,1686 @@
+{
+  "fetched_at": "2026-10-12T11:25:36.805Z",
+  "results": [
+    {
+      "tool": "count_books",
+      "arguments": {
+        "include_archived": false
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"count\": 184\n}",
+      "parsed": {
+        "ok": true,
+        "count": 184
+      }
+    },
+    {
+      "tool": "count_books",
+      "arguments": {
+        "genre": "roman"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"count\": 184\n}",
+      "parsed": {
+        "ok": true,
+        "count": 184
+      }
+    },
+    {
+      "tool": "count_books",
+      "arguments": {
+        "archived": false
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"count\": 184\n}",
+      "parsed": {
+        "ok": true,
+        "count": 184
+      }
+    },
+    {
+      "tool": "list_books",
+      "arguments": {
+        "limit": 50,
+        "archived": true
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1000\",\n      \"title\": \"Le Voyage du fleuve (tome 2)\",\n      \"author\": \"Hugo Perrin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-04-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1001\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Karim Marchand\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2021-01-13T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1005\",\n      \"title\": \"Un Été perdues\",\n      \"author\": \"Sarah Lefèvre\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-02-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1006\",\n      \"title\": \"Un Été du Nord\",\n      \"author\": \"Antoine Marchand\",\n      \"genre\": \"policier\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-03-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1007\",\n      \"title\": \"Les Ombres du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2026-05-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1008\",\n      \"title\": \"Les Heures de pierre\",\n      \"author\": \"Emma Bernard\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-08-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1009\",\n      \"title\": \"Le Voyage des autres\",\n      \"author\": \"Karim Fontaine\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-06-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1010\",\n      \"title\": \"Les Racines de pierre\",\n      \"author\": \"Thomas Guerin\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-09-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1011\",\n      \"title\": \"Un Été en hiver\",\n      \"author\": \"Mehdi Fontaine\",\n      \"genre\": \"bd\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-03-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1012\",\n      \"title\": \"Le Retour des autres\",\n      \"author\": \"Léa Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-07-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1013\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Yanis Moreau\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-05-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1014\",\n      \"title\": \"Le Chant au loin\",\n      \"author\": \"Mehdi Mercier\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-20T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1015\",\n      \"title\": \"La Nuit en hiver\",\n      \"author\": \"Sarah Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2022-04-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1016\",\n      \"title\": \"Les Racines oubliées\",\n      \"author\": \"Hugo Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-02-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1017\",\n      \"title\": \"Le Chant oubliées (tome 2)\",\n      \"author\": \"Manon Leroy\",\n      \"genre\": \"bd\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1020\",\n      \"title\": \"Le Chant du fleuve\",\n      \"author\": \"Yanis Guerin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-09-23T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1021\",\n      \"title\": \"La Nuit en hiver\",\n      \"author\": \"Sarah Blanc\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-10-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1022\",\n      \"title\": \"La Maison de septembre\",\n      \"author\": \"Emma Marchand\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-07T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1023\",\n      \"title\": \"Le Voyage des autres\",\n      \"author\": \"Mehdi Perrin\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-02-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1024\",\n      \"title\": \"La Maison de verre\",\n      \"author\": \"Paul Noël\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2026-09-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1025\",\n      \"title\": \"Les Mains au loin\",\n      \"author\": \"Manon Guerin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-05-12T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1026\",\n      \"title\": \"Les Mains au loin\",\n      \"author\": \"Léa Guerin\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2020-11-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1027\",\n      \"title\": \"La Maison sans fin\",\n      \"author\": \"Camille Robin\",\n      \"genre\": \"roman\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-10-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1028\",\n      \"title\": \"Le Retour de verre\",\n      \"author\": \"Paul Roux\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2022-09-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1029\",\n      \"title\": \"La Frontière du libraire\",\n      \"author\": \"Antoine Dumas\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-11-04T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1030\",\n      \"title\": \"La Mémoire du Nord\",\n      \"author\": \"Léa Barbier\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1031\",\n      \"title\": \"La Frontière sans fin\",\n      \"author\": \"Thomas Dumas\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-03-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1032\",\n      \"title\": \"Un Été perdues\",\n      \"author\": \"Hugo Blanc\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-11-15T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1033\",\n      \"title\": \"Le Retour de septembre\",\n      \"author\": \"Antoine Lefèvre\",\n      \"genre\": \"essai\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-04-28T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1034\",\n      \"title\": \"Un Été au loin (tome 2)\",\n      \"author\": \"Inès Bernard\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-08-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1035\",\n      \"title\": \"Le Voyage sans fin\",\n      \"author\": \"Paul Mercier\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-10-31T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1036\",\n      \"title\": \"Le Dernier de Marseille\",\n      \"author\": \"Léa Mercier\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-05-02T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1037\",\n      \"title\": \"Les Ombres de Marseille\",\n      \"author\": \"Thomas Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-06-10T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1039\",\n      \"title\": \"Un Été sans fin\",\n      \"author\": \"Léa Lefèvre\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-03-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1040\",\n      \"title\": \"La Mémoire de septembre\",\n      \"author\": \"Chloé Bernard\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-05-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1042\",\n      \"title\": \"Le Dernier de verre\",\n      \"author\": \"Karim Barbier\",\n      \"genre\": \"policier\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-11-09T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1043\",\n      \"title\": \"Les Mains de septembre\",\n      \"author\": \"Antoine Robin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-05-13T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1044\",\n      \"title\": \"Une Histoire du dimanche\",\n      \"author\": \"Manon Robin\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-12-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1045\",\n      \"title\": \"Une Histoire sans fin\",\n      \"author\": \"Thomas Roux\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-09-15T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1046\",\n      \"title\": \"Les Racines du dimanche\",\n      \"author\": \"Emma Barbier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-03-29T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1048\",\n      \"title\": \"Une Histoire en hiver\",\n      \"author\": \"Léa Robin\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-06-30T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1049\",\n      \"title\": \"Les Mains du fleuve\",\n      \"author\": \"Paul Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-01-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1050\",\n      \"title\": \"Le Silence oubliées\",\n      \"author\": \"Julien Blanc\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-01-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1051\",\n      \"title\": \"Le Chant de Marseille (tome 2)\",\n      \"author\": \"Antoine Perrin\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-04-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1052\",\n      \"title\": \"La Traversée sans fin\",\n      \"author\": \"Hugo Dumas\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-02-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1053\",\n      \"title\": \"La Nuit des autres\",\n      \"author\": \"Antoine Bernard\",\n      \"genre\": \"roman\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2022-01-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1054\",\n      \"title\": \"La Traversée des autres\",\n      \"author\": \"Chloé Fontaine\",\n      \"genre\": \"bd\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-09-11T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1055\",\n      \"title\": \"La Mémoire perdues\",\n      \"author\": \"Antoine Bernard\",\n      \"genre\": \"essai\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-08-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1056\",\n      \"title\": \"Le Voyage de pierre\",\n      \"author\": \"Mehdi Leroy\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-10-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1057\",\n      \"title\": \"Les Racines de verre\",\n      \"author\": \"Léa Perrin\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-06-22T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1000",
+            "title": "Le Voyage du fleuve (tome 2)",
+            "author": "Hugo Perrin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2023-04-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1001",
+            "title": "Le Chant du fleuve",
+            "author": "Karim Marchand",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2021-01-13T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1005",
+            "title": "Un Été perdues",
+            "author": "Sarah Lefèvre",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2026-02-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1006",
+            "title": "Un Été du Nord",
+            "author": "Antoine Marchand",
+            "genre": "policier",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2026-03-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1007",
+            "title": "Les Ombres du fleuve",
+            "author": "Paul Guerin",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2026-05-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1008",
+            "title": "Les Heures de pierre",
+            "author": "Emma Bernard",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2024-08-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1009",
+            "title": "Le Voyage des autres",
+            "author": "Karim Fontaine",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-06-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1010",
+            "title": "Les Racines de pierre",
+            "author": "Thomas Guerin",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2021-09-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1011",
+            "title": "Un Été en hiver",
+            "author": "Mehdi Fontaine",
+            "genre": "bd",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2022-03-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1012",
+            "title": "Le Retour des autres",
+            "author": "Léa Mercier",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2024-07-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1013",
+            "title": "La Mémoire de septembre",
+            "author": "Yanis Moreau",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-05-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1014",
+            "title": "Le Chant au loin",
+            "author": "Mehdi Mercier",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2025-09-20T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1015",
+            "title": "La Nuit en hiver",
+            "author": "Sarah Bernard",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2022-04-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1016",
+            "title": "Les Racines oubliées",
+            "author": "Hugo Bernard",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2024-02-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1017",
+            "title": "Le Chant oubliées (tome 2)",
+            "author": "Manon Leroy",
+            "genre": "bd",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-09-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1020",
+            "title": "Le Chant du fleuve",
+            "author": "Yanis Guerin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-09-23T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1021",
+            "title": "La Nuit en hiver",
+            "author": "Sarah Blanc",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2025-10-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1022",
+            "title": "La Maison de septembre",
+            "author": "Emma Marchand",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2025-09-07T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1023",
+            "title": "Le Voyage des autres",
+            "author": "Mehdi Perrin",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2022-02-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1024",
+            "title": "La Maison de verre",
+            "author": "Paul Noël",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2026-09-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1025",
+            "title": "Les Mains au loin",
+            "author": "Manon Guerin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2024-05-12T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1026",
+            "title": "Les Mains au loin",
+            "author": "Léa Guerin",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2020-11-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1027",
+            "title": "La Maison sans fin",
+            "author": "Camille Robin",
+            "genre": "roman",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2024-10-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1028",
+            "title": "Le Retour de verre",
+            "author": "Paul Roux",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2022-09-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1029",
+            "title": "La Frontière du libraire",
+            "author": "Antoine Dumas",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2025-11-04T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1030",
+            "title": "La Mémoire du Nord",
+            "author": "Léa Barbier",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2022-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1031",
+            "title": "La Frontière sans fin",
+            "author": "Thomas Dumas",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-03-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1032",
+            "title": "Un Été perdues",
+            "author": "Hugo Blanc",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2023-11-15T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1033",
+            "title": "Le Retour de septembre",
+            "author": "Antoine Lefèvre",
+            "genre": "essai",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2022-04-28T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1034",
+            "title": "Un Été au loin (tome 2)",
+            "author": "Inès Bernard",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-08-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1035",
+            "title": "Le Voyage sans fin",
+            "author": "Paul Mercier",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2021-10-31T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1036",
+            "title": "Le Dernier de Marseille",
+            "author": "Léa Mercier",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2024-05-02T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1037",
+            "title": "Les Ombres de Marseille",
+            "author": "Thomas Mercier",
+            "genre": "roman",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2024-06-10T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1039",
+            "title": "Un Été sans fin",
+            "author": "Léa Lefèvre",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-03-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1040",
+            "title": "La Mémoire de septembre",
+            "author": "Chloé Bernard",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-05-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1042",
+            "title": "Le Dernier de verre",
+            "author": "Karim Barbier",
+            "genre": "policier",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-11-09T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1043",
+            "title": "Les Mains de septembre",
+            "author": "Antoine Robin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2022-05-13T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1044",
+            "title": "Une Histoire du dimanche",
+            "author": "Manon Robin",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2025-12-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1045",
+            "title": "Une Histoire sans fin",
+            "author": "Thomas Roux",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2023-09-15T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1046",
+            "title": "Les Racines du dimanche",
+            "author": "Emma Barbier",
+            "genre": "jeunesse",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2021-03-29T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1048",
+            "title": "Une Histoire en hiver",
+            "author": "Léa Robin",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2024-06-30T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1049",
+            "title": "Les Mains du fleuve",
+            "author": "Paul Perrin",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2025-01-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1050",
+            "title": "Le Silence oubliées",
+            "author": "Julien Blanc",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2022-01-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1051",
+            "title": "Le Chant de Marseille (tome 2)",
+            "author": "Antoine Perrin",
+            "genre": "jeunesse",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2022-04-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1052",
+            "title": "La Traversée sans fin",
+            "author": "Hugo Dumas",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-02-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1053",
+            "title": "La Nuit des autres",
+            "author": "Antoine Bernard",
+            "genre": "roman",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2022-01-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1054",
+            "title": "La Traversée des autres",
+            "author": "Chloé Fontaine",
+            "genre": "bd",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-09-11T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1055",
+            "title": "La Mémoire perdues",
+            "author": "Antoine Bernard",
+            "genre": "essai",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2021-08-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1056",
+            "title": "Le Voyage de pierre",
+            "author": "Mehdi Leroy",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2024-10-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1057",
+            "title": "Les Racines de verre",
+            "author": "Léa Perrin",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2024-06-22T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_loans",
+      "arguments": {
+        "limit": 50,
+        "desk_code": "C3"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"loan_id\": \"LN-5000\",\n      \"book_id\": \"BK-1030\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1777798800,\n      \"due_at\": 1779008400,\n      \"returned_at\": 1778835600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5001\",\n      \"book_id\": \"BK-1076\",\n      \"member_id\": \"MB-201\",\n      \"started_at\": 1779786000,\n      \"due_at\": 1781600400,\n      \"returned_at\": 1781254800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5002\",\n      \"book_id\": \"BK-1055\",\n      \"member_id\": \"MB-235\",\n      \"started_at\": 1780131600,\n      \"due_at\": 1781341200,\n      \"returned_at\": 1781341200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5003\",\n      \"book_id\": \"BK-1112\",\n      \"member_id\": \"MB-213\",\n      \"started_at\": 1790672400,\n      \"due_at\": 1791882000,\n      \"returned_at\": 1791104400,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5004\",\n      \"book_id\": \"BK-1090\",\n      \"member_id\": \"MB-203\",\n      \"started_at\": 1790154000,\n      \"due_at\": 1791968400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5005\",\n      \"book_id\": \"BK-1120\",\n      \"member_id\": \"MB-224\",\n      \"started_at\": 1789635600,\n      \"due_at\": 1790845200,\n      \"returned_at\": 1790067600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5006\",\n      \"book_id\": \"BK-1133\",\n      \"member_id\": \"MB-216\",\n      \"started_at\": 1779094800,\n      \"due_at\": 1781514000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5007\",\n      \"book_id\": \"BK-1054\",\n      \"member_id\": \"MB-217\",\n      \"started_at\": 1775984400,\n      \"due_at\": 1777798800,\n      \"returned_at\": 1777366800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5008\",\n      \"book_id\": \"BK-1040\",\n      \"member_id\": \"MB-201\",\n      \"started_at\": 1787907600,\n      \"due_at\": 1789722000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5009\",\n      \"book_id\": \"BK-1159\",\n      \"member_id\": \"MB-245\",\n      \"started_at\": 1790413200,\n      \"due_at\": 1792832400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5010\",\n      \"book_id\": \"BK-1148\",\n      \"member_id\": \"MB-211\",\n      \"started_at\": 1782205200,\n      \"due_at\": 1784624400,\n      \"returned_at\": 1784019600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5011\",\n      \"book_id\": \"BK-1056\",\n      \"member_id\": \"MB-232\",\n      \"started_at\": 1776502800,\n      \"due_at\": 1778317200,\n      \"returned_at\": 1778058000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5012\",\n      \"book_id\": \"BK-1083\",\n      \"member_id\": \"MB-235\",\n      \"started_at\": 1780736400,\n      \"due_at\": 1781946000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5013\",\n      \"book_id\": \"BK-1027\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1776243600,\n      \"due_at\": 1777453200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5014\",\n      \"book_id\": \"BK-1175\",\n      \"member_id\": \"MB-239\",\n      \"started_at\": 1782118800,\n      \"due_at\": 1784538000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5015\",\n      \"book_id\": \"BK-1103\",\n      \"member_id\": \"MB-221\",\n      \"started_at\": 1776675600,\n      \"due_at\": 1777885200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5016\",\n      \"book_id\": \"BK-1135\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1780822800,\n      \"due_at\": 1782637200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5017\",\n      \"book_id\": \"BK-1121\",\n      \"member_id\": \"MB-230\",\n      \"started_at\": 1778576400,\n      \"due_at\": 1779786000,\n      \"returned_at\": 1779267600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5018\",\n      \"book_id\": \"BK-1032\",\n      \"member_id\": \"MB-217\",\n      \"started_at\": 1783933200,\n      \"due_at\": 1785142800,\n      \"returned_at\": 1784797200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5019\",\n      \"book_id\": \"BK-1142\",\n      \"member_id\": \"MB-245\",\n      \"started_at\": 1788166800,\n      \"due_at\": 1789376400,\n      \"returned_at\": 1788685200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5020\",\n      \"book_id\": \"BK-1016\",\n      \"member_id\": \"MB-216\",\n      \"started_at\": 1774947600,\n      \"due_at\": 1776762000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5021\",\n      \"book_id\": \"BK-1053\",\n      \"member_id\": \"MB-231\",\n      \"started_at\": 1786266000,\n      \"due_at\": 1788080400,\n      \"returned_at\": 1787821200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5022\",\n      \"book_id\": \"BK-1112\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1789981200,\n      \"due_at\": 1791190800,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5023\",\n      \"book_id\": \"BK-1035\",\n      \"member_id\": \"MB-237\",\n      \"started_at\": 1776243600,\n      \"due_at\": 1778058000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5024\",\n      \"book_id\": \"BK-1012\",\n      \"member_id\": \"MB-232\",\n      \"started_at\": 1774861200,\n      \"due_at\": 1776675600,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5025\",\n      \"book_id\": \"BK-1151\",\n      \"member_id\": \"MB-212\",\n      \"started_at\": 1785834000,\n      \"due_at\": 1787648400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5026\",\n      \"book_id\": \"BK-1053\",\n      \"member_id\": \"MB-242\",\n      \"started_at\": 1784106000,\n      \"due_at\": 1785920400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5027\",\n      \"book_id\": \"BK-1182\",\n      \"member_id\": \"MB-222\",\n      \"started_at\": 1790758800,\n      \"due_at\": 1793178000,\n      \"returned_at\": 1792486800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5028\",\n      \"book_id\": \"BK-1001\",\n      \"member_id\": \"MB-224\",\n      \"started_at\": 1790154000,\n      \"due_at\": 1792573200,\n      \"returned_at\": 1792486800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5029\",\n      \"book_id\": \"BK-1088\",\n      \"member_id\": \"MB-216\",\n      \"started_at\": 1777626000,\n      \"due_at\": 1779440400,\n      \"returned_at\": 1779354000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5030\",\n      \"book_id\": \"BK-1095\",\n      \"member_id\": \"MB-233\",\n      \"started_at\": 1780995600,\n      \"due_at\": 1782810000,\n      \"returned_at\": 1782205200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5031\",\n      \"book_id\": \"BK-1008\",\n      \"member_id\": \"MB-239\",\n      \"started_at\": 1784797200,\n      \"due_at\": 1786611600,\n      \"returned_at\": 1786093200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5032\",\n      \"book_id\": \"BK-1110\",\n      \"member_id\": \"MB-227\",\n      \"started_at\": 1786957200,\n      \"due_at\": 1788166800,\n      \"returned_at\": 1788166800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5033\",\n      \"book_id\": \"BK-1054\",\n      \"member_id\": \"MB-204\",\n      \"started_at\": 1789462800,\n      \"due_at\": 1791277200,\n      \"returned_at\": 1790931600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5034\",\n      \"book_id\": \"BK-1022\",\n      \"member_id\": \"MB-200\",\n      \"started_at\": 1788426000,\n      \"due_at\": 1790845200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5035\",\n      \"book_id\": \"BK-1126\",\n      \"member_id\": \"MB-223\",\n      \"started_at\": 1783242000,\n      \"due_at\": 1785056400,\n      \"returned_at\": 1784710800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5036\",\n      \"book_id\": \"BK-1126\",\n      \"member_id\": \"MB-214\",\n      \"started_at\": 1779872400,\n      \"due_at\": 1781686800,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5037\",\n      \"book_id\": \"BK-1061\",\n      \"member_id\": \"MB-236\",\n      \"started_at\": 1777107600,\n      \"due_at\": 1778317200,\n      \"returned_at\": 1778058000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5040\",\n      \"book_id\": \"BK-1025\",\n      \"member_id\": \"MB-224\",\n      \"started_at\": 1781168400,\n      \"due_at\": 1783587600,\n      \"returned_at\": 1782896400,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5041\",\n      \"book_id\": \"BK-1160\",\n      \"member_id\": \"MB-232\",\n      \"started_at\": 1787994000,\n      \"due_at\": 1789808400,\n      \"returned_at\": 1789635600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5042\",\n      \"book_id\": \"BK-1166\",\n      \"member_id\": \"MB-222\",\n      \"started_at\": 1774861200,\n      \"due_at\": 1777280400,\n      \"returned_at\": 1777194000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5043\",\n      \"book_id\": \"BK-1167\",\n      \"member_id\": \"MB-215\",\n      \"started_at\": 1781773200,\n      \"due_at\": 1782982800,\n      \"returned_at\": 1782464400,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5044\",\n      \"book_id\": \"BK-1050\",\n      \"member_id\": \"MB-217\",\n      \"started_at\": 1783069200,\n      \"due_at\": 1784883600,\n      \"returned_at\": 1784451600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5045\",\n      \"book_id\": \"BK-1090\",\n      \"member_id\": \"MB-204\",\n      \"started_at\": 1782291600,\n      \"due_at\": 1784106000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5046\",\n      \"book_id\": \"BK-1040\",\n      \"member_id\": \"MB-204\",\n      \"started_at\": 1781341200,\n      \"due_at\": 1783155600,\n      \"returned_at\": 1782723600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5047\",\n      \"book_id\": \"BK-1170\",\n      \"member_id\": \"MB-210\",\n      \"started_at\": 1776070800,\n      \"due_at\": 1777885200,\n      \"returned_at\": 1777626000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5048\",\n      \"book_id\": \"BK-1109\",\n      \"member_id\": \"MB-239\",\n      \"started_at\": 1780304400,\n      \"due_at\": 1782118800,\n      \"returned_at\": 1781427600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5049\",\n      \"book_id\": \"BK-1043\",\n      \"member_id\": \"MB-225\",\n      \"started_at\": 1786352400,\n      \"due_at\": 1787562000,\n      \"returned_at\": 1786870800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5050\",\n      \"book_id\": \"BK-1046\",\n      \"member_id\": \"MB-218\",\n      \"started_at\": 1782032400,\n      \"due_at\": 1783846800,\n      \"returned_at\": 1783242000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5051\",\n      \"book_id\": \"BK-1011\",\n      \"member_id\": \"MB-230\",\n      \"started_at\": 1787216400,\n      \"due_at\": 1788426000,\n      \"returned_at\": 1788166800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "loan_id": "LN-5000",
+            "book_id": "BK-1030",
+            "member_id": "MB-234",
+            "started_at": 1777798800,
+            "due_at": 1779008400,
+            "returned_at": 1778835600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5001",
+            "book_id": "BK-1076",
+            "member_id": "MB-201",
+            "started_at": 1779786000,
+            "due_at": 1781600400,
+            "returned_at": 1781254800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5002",
+            "book_id": "BK-1055",
+            "member_id": "MB-235",
+            "started_at": 1780131600,
+            "due_at": 1781341200,
+            "returned_at": 1781341200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5003",
+            "book_id": "BK-1112",
+            "member_id": "MB-213",
+            "started_at": 1790672400,
+            "due_at": 1791882000,
+            "returned_at": 1791104400,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5004",
+            "book_id": "BK-1090",
+            "member_id": "MB-203",
+            "started_at": 1790154000,
+            "due_at": 1791968400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5005",
+            "book_id": "BK-1120",
+            "member_id": "MB-224",
+            "started_at": 1789635600,
+            "due_at": 1790845200,
+            "returned_at": 1790067600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5006",
+            "book_id": "BK-1133",
+            "member_id": "MB-216",
+            "started_at": 1779094800,
+            "due_at": 1781514000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5007",
+            "book_id": "BK-1054",
+            "member_id": "MB-217",
+            "started_at": 1775984400,
+            "due_at": 1777798800,
+            "returned_at": 1777366800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5008",
+            "book_id": "BK-1040",
+            "member_id": "MB-201",
+            "started_at": 1787907600,
+            "due_at": 1789722000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5009",
+            "book_id": "BK-1159",
+            "member_id": "MB-245",
+            "started_at": 1790413200,
+            "due_at": 1792832400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5010",
+            "book_id": "BK-1148",
+            "member_id": "MB-211",
+            "started_at": 1782205200,
+            "due_at": 1784624400,
+            "returned_at": 1784019600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5011",
+            "book_id": "BK-1056",
+            "member_id": "MB-232",
+            "started_at": 1776502800,
+            "due_at": 1778317200,
+            "returned_at": 1778058000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5012",
+            "book_id": "BK-1083",
+            "member_id": "MB-235",
+            "started_at": 1780736400,
+            "due_at": 1781946000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5013",
+            "book_id": "BK-1027",
+            "member_id": "MB-234",
+            "started_at": 1776243600,
+            "due_at": 1777453200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5014",
+            "book_id": "BK-1175",
+            "member_id": "MB-239",
+            "started_at": 1782118800,
+            "due_at": 1784538000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5015",
+            "book_id": "BK-1103",
+            "member_id": "MB-221",
+            "started_at": 1776675600,
+            "due_at": 1777885200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5016",
+            "book_id": "BK-1135",
+            "member_id": "MB-234",
+            "started_at": 1780822800,
+            "due_at": 1782637200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5017",
+            "book_id": "BK-1121",
+            "member_id": "MB-230",
+            "started_at": 1778576400,
+            "due_at": 1779786000,
+            "returned_at": 1779267600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5018",
+            "book_id": "BK-1032",
+            "member_id": "MB-217",
+            "started_at": 1783933200,
+            "due_at": 1785142800,
+            "returned_at": 1784797200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5019",
+            "book_id": "BK-1142",
+            "member_id": "MB-245",
+            "started_at": 1788166800,
+            "due_at": 1789376400,
+            "returned_at": 1788685200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5020",
+            "book_id": "BK-1016",
+            "member_id": "MB-216",
+            "started_at": 1774947600,
+            "due_at": 1776762000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5021",
+            "book_id": "BK-1053",
+            "member_id": "MB-231",
+            "started_at": 1786266000,
+            "due_at": 1788080400,
+            "returned_at": 1787821200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5022",
+            "book_id": "BK-1112",
+            "member_id": "MB-234",
+            "started_at": 1789981200,
+            "due_at": 1791190800,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5023",
+            "book_id": "BK-1035",
+            "member_id": "MB-237",
+            "started_at": 1776243600,
+            "due_at": 1778058000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5024",
+            "book_id": "BK-1012",
+            "member_id": "MB-232",
+            "started_at": 1774861200,
+            "due_at": 1776675600,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5025",
+            "book_id": "BK-1151",
+            "member_id": "MB-212",
+            "started_at": 1785834000,
+            "due_at": 1787648400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5026",
+            "book_id": "BK-1053",
+            "member_id": "MB-242",
+            "started_at": 1784106000,
+            "due_at": 1785920400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5027",
+            "book_id": "BK-1182",
+            "member_id": "MB-222",
+            "started_at": 1790758800,
+            "due_at": 1793178000,
+            "returned_at": 1792486800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5028",
+            "book_id": "BK-1001",
+            "member_id": "MB-224",
+            "started_at": 1790154000,
+            "due_at": 1792573200,
+            "returned_at": 1792486800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5029",
+            "book_id": "BK-1088",
+            "member_id": "MB-216",
+            "started_at": 1777626000,
+            "due_at": 1779440400,
+            "returned_at": 1779354000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5030",
+            "book_id": "BK-1095",
+            "member_id": "MB-233",
+            "started_at": 1780995600,
+            "due_at": 1782810000,
+            "returned_at": 1782205200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5031",
+            "book_id": "BK-1008",
+            "member_id": "MB-239",
+            "started_at": 1784797200,
+            "due_at": 1786611600,
+            "returned_at": 1786093200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5032",
+            "book_id": "BK-1110",
+            "member_id": "MB-227",
+            "started_at": 1786957200,
+            "due_at": 1788166800,
+            "returned_at": 1788166800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5033",
+            "book_id": "BK-1054",
+            "member_id": "MB-204",
+            "started_at": 1789462800,
+            "due_at": 1791277200,
+            "returned_at": 1790931600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5034",
+            "book_id": "BK-1022",
+            "member_id": "MB-200",
+            "started_at": 1788426000,
+            "due_at": 1790845200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5035",
+            "book_id": "BK-1126",
+            "member_id": "MB-223",
+            "started_at": 1783242000,
+            "due_at": 1785056400,
+            "returned_at": 1784710800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5036",
+            "book_id": "BK-1126",
+            "member_id": "MB-214",
+            "started_at": 1779872400,
+            "due_at": 1781686800,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5037",
+            "book_id": "BK-1061",
+            "member_id": "MB-236",
+            "started_at": 1777107600,
+            "due_at": 1778317200,
+            "returned_at": 1778058000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5040",
+            "book_id": "BK-1025",
+            "member_id": "MB-224",
+            "started_at": 1781168400,
+            "due_at": 1783587600,
+            "returned_at": 1782896400,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5041",
+            "book_id": "BK-1160",
+            "member_id": "MB-232",
+            "started_at": 1787994000,
+            "due_at": 1789808400,
+            "returned_at": 1789635600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5042",
+            "book_id": "BK-1166",
+            "member_id": "MB-222",
+            "started_at": 1774861200,
+            "due_at": 1777280400,
+            "returned_at": 1777194000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5043",
+            "book_id": "BK-1167",
+            "member_id": "MB-215",
+            "started_at": 1781773200,
+            "due_at": 1782982800,
+            "returned_at": 1782464400,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5044",
+            "book_id": "BK-1050",
+            "member_id": "MB-217",
+            "started_at": 1783069200,
+            "due_at": 1784883600,
+            "returned_at": 1784451600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5045",
+            "book_id": "BK-1090",
+            "member_id": "MB-204",
+            "started_at": 1782291600,
+            "due_at": 1784106000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5046",
+            "book_id": "BK-1040",
+            "member_id": "MB-204",
+            "started_at": 1781341200,
+            "due_at": 1783155600,
+            "returned_at": 1782723600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5047",
+            "book_id": "BK-1170",
+            "member_id": "MB-210",
+            "started_at": 1776070800,
+            "due_at": 1777885200,
+            "returned_at": 1777626000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5048",
+            "book_id": "BK-1109",
+            "member_id": "MB-239",
+            "started_at": 1780304400,
+            "due_at": 1782118800,
+            "returned_at": 1781427600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5049",
+            "book_id": "BK-1043",
+            "member_id": "MB-225",
+            "started_at": 1786352400,
+            "due_at": 1787562000,
+            "returned_at": 1786870800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5050",
+            "book_id": "BK-1046",
+            "member_id": "MB-218",
+            "started_at": 1782032400,
+            "due_at": 1783846800,
+            "returned_at": 1783242000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5051",
+            "book_id": "BK-1011",
+            "member_id": "MB-230",
+            "started_at": 1787216400,
+            "due_at": 1788426000,
+            "returned_at": 1788166800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "list_loans",
+      "arguments": {
+        "limit": 50,
+        "book_id": "BK-1016"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"loan_id\": \"LN-5000\",\n      \"book_id\": \"BK-1030\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1777798800,\n      \"due_at\": 1779008400,\n      \"returned_at\": 1778835600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5001\",\n      \"book_id\": \"BK-1076\",\n      \"member_id\": \"MB-201\",\n      \"started_at\": 1779786000,\n      \"due_at\": 1781600400,\n      \"returned_at\": 1781254800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5002\",\n      \"book_id\": \"BK-1055\",\n      \"member_id\": \"MB-235\",\n      \"started_at\": 1780131600,\n      \"due_at\": 1781341200,\n      \"returned_at\": 1781341200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5003\",\n      \"book_id\": \"BK-1112\",\n      \"member_id\": \"MB-213\",\n      \"started_at\": 1790672400,\n      \"due_at\": 1791882000,\n      \"returned_at\": 1791104400,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5004\",\n      \"book_id\": \"BK-1090\",\n      \"member_id\": \"MB-203\",\n      \"started_at\": 1790154000,\n      \"due_at\": 1791968400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5005\",\n      \"book_id\": \"BK-1120\",\n      \"member_id\": \"MB-224\",\n      \"started_at\": 1789635600,\n      \"due_at\": 1790845200,\n      \"returned_at\": 1790067600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5006\",\n      \"book_id\": \"BK-1133\",\n      \"member_id\": \"MB-216\",\n      \"started_at\": 1779094800,\n      \"due_at\": 1781514000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5007\",\n      \"book_id\": \"BK-1054\",\n      \"member_id\": \"MB-217\",\n      \"started_at\": 1775984400,\n      \"due_at\": 1777798800,\n      \"returned_at\": 1777366800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5008\",\n      \"book_id\": \"BK-1040\",\n      \"member_id\": \"MB-201\",\n      \"started_at\": 1787907600,\n      \"due_at\": 1789722000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5009\",\n      \"book_id\": \"BK-1159\",\n      \"member_id\": \"MB-245\",\n      \"started_at\": 1790413200,\n      \"due_at\": 1792832400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5010\",\n      \"book_id\": \"BK-1148\",\n      \"member_id\": \"MB-211\",\n      \"started_at\": 1782205200,\n      \"due_at\": 1784624400,\n      \"returned_at\": 1784019600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5011\",\n      \"book_id\": \"BK-1056\",\n      \"member_id\": \"MB-232\",\n      \"started_at\": 1776502800,\n      \"due_at\": 1778317200,\n      \"returned_at\": 1778058000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5012\",\n      \"book_id\": \"BK-1083\",\n      \"member_id\": \"MB-235\",\n      \"started_at\": 1780736400,\n      \"due_at\": 1781946000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5013\",\n      \"book_id\": \"BK-1027\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1776243600,\n      \"due_at\": 1777453200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5014\",\n      \"book_id\": \"BK-1175\",\n      \"member_id\": \"MB-239\",\n      \"started_at\": 1782118800,\n      \"due_at\": 1784538000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5015\",\n      \"book_id\": \"BK-1103\",\n      \"member_id\": \"MB-221\",\n      \"started_at\": 1776675600,\n      \"due_at\": 1777885200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5016\",\n      \"book_id\": \"BK-1135\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1780822800,\n      \"due_at\": 1782637200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5017\",\n      \"book_id\": \"BK-1121\",\n      \"member_id\": \"MB-230\",\n      \"started_at\": 1778576400,\n      \"due_at\": 1779786000,\n      \"returned_at\": 1779267600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5018\",\n      \"book_id\": \"BK-1032\",\n      \"member_id\": \"MB-217\",\n      \"started_at\": 1783933200,\n      \"due_at\": 1785142800,\n      \"returned_at\": 1784797200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5019\",\n      \"book_id\": \"BK-1142\",\n      \"member_id\": \"MB-245\",\n      \"started_at\": 1788166800,\n      \"due_at\": 1789376400,\n      \"returned_at\": 1788685200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5020\",\n      \"book_id\": \"BK-1016\",\n      \"member_id\": \"MB-216\",\n      \"started_at\": 1774947600,\n      \"due_at\": 1776762000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5021\",\n      \"book_id\": \"BK-1053\",\n      \"member_id\": \"MB-231\",\n      \"started_at\": 1786266000,\n      \"due_at\": 1788080400,\n      \"returned_at\": 1787821200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5022\",\n      \"book_id\": \"BK-1112\",\n      \"member_id\": \"MB-234\",\n      \"started_at\": 1789981200,\n      \"due_at\": 1791190800,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5023\",\n      \"book_id\": \"BK-1035\",\n      \"member_id\": \"MB-237\",\n      \"started_at\": 1776243600,\n      \"due_at\": 1778058000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5024\",\n      \"book_id\": \"BK-1012\",\n      \"member_id\": \"MB-232\",\n      \"started_at\": 1774861200,\n      \"due_at\": 1776675600,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5025\",\n      \"book_id\": \"BK-1151\",\n      \"member_id\": \"MB-212\",\n      \"started_at\": 1785834000,\n      \"due_at\": 1787648400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5026\",\n      \"book_id\": \"BK-1053\",\n      \"member_id\": \"MB-242\",\n      \"started_at\": 1784106000,\n      \"due_at\": 1785920400,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5027\",\n      \"book_id\": \"BK-1182\",\n      \"member_id\": \"MB-222\",\n      \"started_at\": 1790758800,\n      \"due_at\": 1793178000,\n      \"returned_at\": 1792486800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5028\",\n      \"book_id\": \"BK-1001\",\n      \"member_id\": \"MB-224\",\n      \"started_at\": 1790154000,\n      \"due_at\": 1792573200,\n      \"returned_at\": 1792486800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5029\",\n      \"book_id\": \"BK-1088\",\n      \"member_id\": \"MB-216\",\n      \"started_at\": 1777626000,\n      \"due_at\": 1779440400,\n      \"returned_at\": 1779354000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5030\",\n      \"book_id\": \"BK-1095\",\n      \"member_id\": \"MB-233\",\n      \"started_at\": 1780995600,\n      \"due_at\": 1782810000,\n      \"returned_at\": 1782205200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5031\",\n      \"book_id\": \"BK-1008\",\n      \"member_id\": \"MB-239\",\n      \"started_at\": 1784797200,\n      \"due_at\": 1786611600,\n      \"returned_at\": 1786093200,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5032\",\n      \"book_id\": \"BK-1110\",\n      \"member_id\": \"MB-227\",\n      \"started_at\": 1786957200,\n      \"due_at\": 1788166800,\n      \"returned_at\": 1788166800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5033\",\n      \"book_id\": \"BK-1054\",\n      \"member_id\": \"MB-204\",\n      \"started_at\": 1789462800,\n      \"due_at\": 1791277200,\n      \"returned_at\": 1790931600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5034\",\n      \"book_id\": \"BK-1022\",\n      \"member_id\": \"MB-200\",\n      \"started_at\": 1788426000,\n      \"due_at\": 1790845200,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5035\",\n      \"book_id\": \"BK-1126\",\n      \"member_id\": \"MB-223\",\n      \"started_at\": 1783242000,\n      \"due_at\": 1785056400,\n      \"returned_at\": 1784710800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5036\",\n      \"book_id\": \"BK-1126\",\n      \"member_id\": \"MB-214\",\n      \"started_at\": 1779872400,\n      \"due_at\": 1781686800,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5037\",\n      \"book_id\": \"BK-1061\",\n      \"member_id\": \"MB-236\",\n      \"started_at\": 1777107600,\n      \"due_at\": 1778317200,\n      \"returned_at\": 1778058000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5040\",\n      \"book_id\": \"BK-1025\",\n      \"member_id\": \"MB-224\",\n      \"started_at\": 1781168400,\n      \"due_at\": 1783587600,\n      \"returned_at\": 1782896400,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5041\",\n      \"book_id\": \"BK-1160\",\n      \"member_id\": \"MB-232\",\n      \"started_at\": 1787994000,\n      \"due_at\": 1789808400,\n      \"returned_at\": 1789635600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5042\",\n      \"book_id\": \"BK-1166\",\n      \"member_id\": \"MB-222\",\n      \"started_at\": 1774861200,\n      \"due_at\": 1777280400,\n      \"returned_at\": 1777194000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5043\",\n      \"book_id\": \"BK-1167\",\n      \"member_id\": \"MB-215\",\n      \"started_at\": 1781773200,\n      \"due_at\": 1782982800,\n      \"returned_at\": 1782464400,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5044\",\n      \"book_id\": \"BK-1050\",\n      \"member_id\": \"MB-217\",\n      \"started_at\": 1783069200,\n      \"due_at\": 1784883600,\n      \"returned_at\": 1784451600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5045\",\n      \"book_id\": \"BK-1090\",\n      \"member_id\": \"MB-204\",\n      \"started_at\": 1782291600,\n      \"due_at\": 1784106000,\n      \"returned_at\": null,\n      \"status\": \"open\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5046\",\n      \"book_id\": \"BK-1040\",\n      \"member_id\": \"MB-204\",\n      \"started_at\": 1781341200,\n      \"due_at\": 1783155600,\n      \"returned_at\": 1782723600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5047\",\n      \"book_id\": \"BK-1170\",\n      \"member_id\": \"MB-210\",\n      \"started_at\": 1776070800,\n      \"due_at\": 1777885200,\n      \"returned_at\": 1777626000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5048\",\n      \"book_id\": \"BK-1109\",\n      \"member_id\": \"MB-239\",\n      \"started_at\": 1780304400,\n      \"due_at\": 1782118800,\n      \"returned_at\": 1781427600,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    },\n    {\n      \"loan_id\": \"LN-5049\",\n      \"book_id\": \"BK-1043\",\n      \"member_id\": \"MB-225\",\n      \"started_at\": 1786352400,\n      \"due_at\": 1787562000,\n      \"returned_at\": 1786870800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"B2\"\n    },\n    {\n      \"loan_id\": \"LN-5050\",\n      \"book_id\": \"BK-1046\",\n      \"member_id\": \"MB-218\",\n      \"started_at\": 1782032400,\n      \"due_at\": 1783846800,\n      \"returned_at\": 1783242000,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"C3\"\n    },\n    {\n      \"loan_id\": \"LN-5051\",\n      \"book_id\": \"BK-1011\",\n      \"member_id\": \"MB-230\",\n      \"started_at\": 1787216400,\n      \"due_at\": 1788426000,\n      \"returned_at\": 1788166800,\n      \"status\": \"returned\",\n      \"archived\": false,\n      \"desk_code\": \"A1\"\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "loan_id": "LN-5000",
+            "book_id": "BK-1030",
+            "member_id": "MB-234",
+            "started_at": 1777798800,
+            "due_at": 1779008400,
+            "returned_at": 1778835600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5001",
+            "book_id": "BK-1076",
+            "member_id": "MB-201",
+            "started_at": 1779786000,
+            "due_at": 1781600400,
+            "returned_at": 1781254800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5002",
+            "book_id": "BK-1055",
+            "member_id": "MB-235",
+            "started_at": 1780131600,
+            "due_at": 1781341200,
+            "returned_at": 1781341200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5003",
+            "book_id": "BK-1112",
+            "member_id": "MB-213",
+            "started_at": 1790672400,
+            "due_at": 1791882000,
+            "returned_at": 1791104400,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5004",
+            "book_id": "BK-1090",
+            "member_id": "MB-203",
+            "started_at": 1790154000,
+            "due_at": 1791968400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5005",
+            "book_id": "BK-1120",
+            "member_id": "MB-224",
+            "started_at": 1789635600,
+            "due_at": 1790845200,
+            "returned_at": 1790067600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5006",
+            "book_id": "BK-1133",
+            "member_id": "MB-216",
+            "started_at": 1779094800,
+            "due_at": 1781514000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5007",
+            "book_id": "BK-1054",
+            "member_id": "MB-217",
+            "started_at": 1775984400,
+            "due_at": 1777798800,
+            "returned_at": 1777366800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5008",
+            "book_id": "BK-1040",
+            "member_id": "MB-201",
+            "started_at": 1787907600,
+            "due_at": 1789722000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5009",
+            "book_id": "BK-1159",
+            "member_id": "MB-245",
+            "started_at": 1790413200,
+            "due_at": 1792832400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5010",
+            "book_id": "BK-1148",
+            "member_id": "MB-211",
+            "started_at": 1782205200,
+            "due_at": 1784624400,
+            "returned_at": 1784019600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5011",
+            "book_id": "BK-1056",
+            "member_id": "MB-232",
+            "started_at": 1776502800,
+            "due_at": 1778317200,
+            "returned_at": 1778058000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5012",
+            "book_id": "BK-1083",
+            "member_id": "MB-235",
+            "started_at": 1780736400,
+            "due_at": 1781946000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5013",
+            "book_id": "BK-1027",
+            "member_id": "MB-234",
+            "started_at": 1776243600,
+            "due_at": 1777453200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5014",
+            "book_id": "BK-1175",
+            "member_id": "MB-239",
+            "started_at": 1782118800,
+            "due_at": 1784538000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5015",
+            "book_id": "BK-1103",
+            "member_id": "MB-221",
+            "started_at": 1776675600,
+            "due_at": 1777885200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5016",
+            "book_id": "BK-1135",
+            "member_id": "MB-234",
+            "started_at": 1780822800,
+            "due_at": 1782637200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5017",
+            "book_id": "BK-1121",
+            "member_id": "MB-230",
+            "started_at": 1778576400,
+            "due_at": 1779786000,
+            "returned_at": 1779267600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5018",
+            "book_id": "BK-1032",
+            "member_id": "MB-217",
+            "started_at": 1783933200,
+            "due_at": 1785142800,
+            "returned_at": 1784797200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5019",
+            "book_id": "BK-1142",
+            "member_id": "MB-245",
+            "started_at": 1788166800,
+            "due_at": 1789376400,
+            "returned_at": 1788685200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5020",
+            "book_id": "BK-1016",
+            "member_id": "MB-216",
+            "started_at": 1774947600,
+            "due_at": 1776762000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5021",
+            "book_id": "BK-1053",
+            "member_id": "MB-231",
+            "started_at": 1786266000,
+            "due_at": 1788080400,
+            "returned_at": 1787821200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5022",
+            "book_id": "BK-1112",
+            "member_id": "MB-234",
+            "started_at": 1789981200,
+            "due_at": 1791190800,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5023",
+            "book_id": "BK-1035",
+            "member_id": "MB-237",
+            "started_at": 1776243600,
+            "due_at": 1778058000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5024",
+            "book_id": "BK-1012",
+            "member_id": "MB-232",
+            "started_at": 1774861200,
+            "due_at": 1776675600,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5025",
+            "book_id": "BK-1151",
+            "member_id": "MB-212",
+            "started_at": 1785834000,
+            "due_at": 1787648400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5026",
+            "book_id": "BK-1053",
+            "member_id": "MB-242",
+            "started_at": 1784106000,
+            "due_at": 1785920400,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5027",
+            "book_id": "BK-1182",
+            "member_id": "MB-222",
+            "started_at": 1790758800,
+            "due_at": 1793178000,
+            "returned_at": 1792486800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5028",
+            "book_id": "BK-1001",
+            "member_id": "MB-224",
+            "started_at": 1790154000,
+            "due_at": 1792573200,
+            "returned_at": 1792486800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5029",
+            "book_id": "BK-1088",
+            "member_id": "MB-216",
+            "started_at": 1777626000,
+            "due_at": 1779440400,
+            "returned_at": 1779354000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5030",
+            "book_id": "BK-1095",
+            "member_id": "MB-233",
+            "started_at": 1780995600,
+            "due_at": 1782810000,
+            "returned_at": 1782205200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5031",
+            "book_id": "BK-1008",
+            "member_id": "MB-239",
+            "started_at": 1784797200,
+            "due_at": 1786611600,
+            "returned_at": 1786093200,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5032",
+            "book_id": "BK-1110",
+            "member_id": "MB-227",
+            "started_at": 1786957200,
+            "due_at": 1788166800,
+            "returned_at": 1788166800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5033",
+            "book_id": "BK-1054",
+            "member_id": "MB-204",
+            "started_at": 1789462800,
+            "due_at": 1791277200,
+            "returned_at": 1790931600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5034",
+            "book_id": "BK-1022",
+            "member_id": "MB-200",
+            "started_at": 1788426000,
+            "due_at": 1790845200,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5035",
+            "book_id": "BK-1126",
+            "member_id": "MB-223",
+            "started_at": 1783242000,
+            "due_at": 1785056400,
+            "returned_at": 1784710800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5036",
+            "book_id": "BK-1126",
+            "member_id": "MB-214",
+            "started_at": 1779872400,
+            "due_at": 1781686800,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5037",
+            "book_id": "BK-1061",
+            "member_id": "MB-236",
+            "started_at": 1777107600,
+            "due_at": 1778317200,
+            "returned_at": 1778058000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5040",
+            "book_id": "BK-1025",
+            "member_id": "MB-224",
+            "started_at": 1781168400,
+            "due_at": 1783587600,
+            "returned_at": 1782896400,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5041",
+            "book_id": "BK-1160",
+            "member_id": "MB-232",
+            "started_at": 1787994000,
+            "due_at": 1789808400,
+            "returned_at": 1789635600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5042",
+            "book_id": "BK-1166",
+            "member_id": "MB-222",
+            "started_at": 1774861200,
+            "due_at": 1777280400,
+            "returned_at": 1777194000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5043",
+            "book_id": "BK-1167",
+            "member_id": "MB-215",
+            "started_at": 1781773200,
+            "due_at": 1782982800,
+            "returned_at": 1782464400,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5044",
+            "book_id": "BK-1050",
+            "member_id": "MB-217",
+            "started_at": 1783069200,
+            "due_at": 1784883600,
+            "returned_at": 1784451600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5045",
+            "book_id": "BK-1090",
+            "member_id": "MB-204",
+            "started_at": 1782291600,
+            "due_at": 1784106000,
+            "returned_at": null,
+            "status": "open",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5046",
+            "book_id": "BK-1040",
+            "member_id": "MB-204",
+            "started_at": 1781341200,
+            "due_at": 1783155600,
+            "returned_at": 1782723600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5047",
+            "book_id": "BK-1170",
+            "member_id": "MB-210",
+            "started_at": 1776070800,
+            "due_at": 1777885200,
+            "returned_at": 1777626000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5048",
+            "book_id": "BK-1109",
+            "member_id": "MB-239",
+            "started_at": 1780304400,
+            "due_at": 1782118800,
+            "returned_at": 1781427600,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          },
+          {
+            "loan_id": "LN-5049",
+            "book_id": "BK-1043",
+            "member_id": "MB-225",
+            "started_at": 1786352400,
+            "due_at": 1787562000,
+            "returned_at": 1786870800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "B2"
+          },
+          {
+            "loan_id": "LN-5050",
+            "book_id": "BK-1046",
+            "member_id": "MB-218",
+            "started_at": 1782032400,
+            "due_at": 1783846800,
+            "returned_at": 1783242000,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "C3"
+          },
+          {
+            "loan_id": "LN-5051",
+            "book_id": "BK-1011",
+            "member_id": "MB-230",
+            "started_at": 1787216400,
+            "due_at": 1788426000,
+            "returned_at": 1788166800,
+            "status": "returned",
+            "archived": false,
+            "desk_code": "A1"
+          }
+        ],
+        "next": "NTA="
+      }
+    }
+  ]
+}

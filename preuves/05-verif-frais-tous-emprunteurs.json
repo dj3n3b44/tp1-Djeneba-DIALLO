@@ -1,0 +1,489 @@
+{
+  "fetched_at": "2026-10-12T11:10:00.236Z",
+  "results": [
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-200"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-200\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 120,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 0.75\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-200",
+        "open_loans": 1,
+        "overdue_duration": 120,
+        "late_fee_per_day": 15,
+        "balance_due": 0.75
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-201"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-201\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 432,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 2.7\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-201",
+        "open_loans": 1,
+        "overdue_duration": 432,
+        "late_fee_per_day": 15,
+        "balance_due": 2.7
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-202"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-202\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 2760,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 17.25\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-202",
+        "open_loans": 1,
+        "overdue_duration": 2760,
+        "late_fee_per_day": 15,
+        "balance_due": 17.25
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-203"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-203\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 2376,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 14.85\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-203",
+        "open_loans": 2,
+        "overdue_duration": 2376,
+        "late_fee_per_day": 15,
+        "balance_due": 14.85
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-204"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-204\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 1992,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 12.45\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-204",
+        "open_loans": 1,
+        "overdue_duration": 1992,
+        "late_fee_per_day": 15,
+        "balance_due": 12.45
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-206"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-206\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 3048,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 19.05\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-206",
+        "open_loans": 1,
+        "overdue_duration": 3048,
+        "late_fee_per_day": 15,
+        "balance_due": 19.05
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-207"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-207\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 3816,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 23.85\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-207",
+        "open_loans": 1,
+        "overdue_duration": 3816,
+        "late_fee_per_day": 15,
+        "balance_due": 23.85
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-208"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-208\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 1608,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 10.05\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-208",
+        "open_loans": 1,
+        "overdue_duration": 1608,
+        "late_fee_per_day": 15,
+        "balance_due": 10.05
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-209"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-209\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 0,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-209",
+        "open_loans": 1,
+        "overdue_duration": 0,
+        "late_fee_per_day": 15,
+        "balance_due": 0
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-210"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-210\",\n  \"open_loans\": 4,\n  \"overdue_duration\": 6144,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 38.4\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-210",
+        "open_loans": 4,
+        "overdue_duration": 6144,
+        "late_fee_per_day": 15,
+        "balance_due": 38.4
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-212"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-212\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 1008,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 6.3\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-212",
+        "open_loans": 1,
+        "overdue_duration": 1008,
+        "late_fee_per_day": 15,
+        "balance_due": 6.3
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-214"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-214\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 2664,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 16.65\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-214",
+        "open_loans": 2,
+        "overdue_duration": 2664,
+        "late_fee_per_day": 15,
+        "balance_due": 16.65
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-216"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-216\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 6744,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 42.15\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-216",
+        "open_loans": 2,
+        "overdue_duration": 6744,
+        "late_fee_per_day": 15,
+        "balance_due": 42.15
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-217"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-217\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 984,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 6.15\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-217",
+        "open_loans": 1,
+        "overdue_duration": 984,
+        "late_fee_per_day": 15,
+        "balance_due": 6.15
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-219"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-219\",\n  \"open_loans\": 3,\n  \"overdue_duration\": 3216,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 20.1\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-219",
+        "open_loans": 3,
+        "overdue_duration": 3216,
+        "late_fee_per_day": 15,
+        "balance_due": 20.1
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-221"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-221\",\n  \"open_loans\": 3,\n  \"overdue_duration\": 9600,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 60\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-221",
+        "open_loans": 3,
+        "overdue_duration": 9600,
+        "late_fee_per_day": 15,
+        "balance_due": 60
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-225"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-225\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 4296,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 26.85\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-225",
+        "open_loans": 1,
+        "overdue_duration": 4296,
+        "late_fee_per_day": 15,
+        "balance_due": 26.85
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-226"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-226\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 2616,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 16.35\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-226",
+        "open_loans": 1,
+        "overdue_duration": 2616,
+        "late_fee_per_day": 15,
+        "balance_due": 16.35
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-227"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-227\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 24,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 0.15\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-227",
+        "open_loans": 1,
+        "overdue_duration": 24,
+        "late_fee_per_day": 15,
+        "balance_due": 0.15
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-228"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-228\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 3456,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 21.6\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-228",
+        "open_loans": 2,
+        "overdue_duration": 3456,
+        "late_fee_per_day": 15,
+        "balance_due": 21.6
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-230"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-230\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 2496,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 15.6\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-230",
+        "open_loans": 2,
+        "overdue_duration": 2496,
+        "late_fee_per_day": 15,
+        "balance_due": 15.6
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-231"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-231\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 3000,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 18.75\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-231",
+        "open_loans": 1,
+        "overdue_duration": 3000,
+        "late_fee_per_day": 15,
+        "balance_due": 18.75
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-232"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-232\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 5712,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 35.7\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-232",
+        "open_loans": 2,
+        "overdue_duration": 5712,
+        "late_fee_per_day": 15,
+        "balance_due": 35.7
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-234"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-234\",\n  \"open_loans\": 4,\n  \"overdue_duration\": 9912,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 61.95\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-234",
+        "open_loans": 4,
+        "overdue_duration": 9912,
+        "late_fee_per_day": 15,
+        "balance_due": 61.95
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-235"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-235\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 2592,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 16.2\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-235",
+        "open_loans": 1,
+        "overdue_duration": 2592,
+        "late_fee_per_day": 15,
+        "balance_due": 16.2
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-237"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-237\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 7536,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 47.1\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-237",
+        "open_loans": 2,
+        "overdue_duration": 7536,
+        "late_fee_per_day": 15,
+        "balance_due": 47.1
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-239"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-239\",\n  \"open_loans\": 5,\n  \"overdue_duration\": 9312,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 58.2\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-239",
+        "open_loans": 5,
+        "overdue_duration": 9312,
+        "late_fee_per_day": 15,
+        "balance_due": 58.2
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-240"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": null,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": null,
+        "balance_due": 0
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-241"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": null,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": null,
+        "balance_due": 0
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-242"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": null,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": null,
+        "balance_due": 0
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-245"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": null,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": null,
+        "balance_due": 0
+      }
+    }
+  ]
+}

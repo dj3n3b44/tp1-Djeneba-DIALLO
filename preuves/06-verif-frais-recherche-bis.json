@@ -1,0 +1,465 @@
+{
+  "fetched_at": "2026-10-12T11:10:31.860Z",
+  "results": [
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-241"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-241\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 6096,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 38.1\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-241",
+        "open_loans": 2,
+        "overdue_duration": 6096,
+        "late_fee_per_day": 15,
+        "balance_due": 38.1
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-240"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-240\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 312,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 1.95\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-240",
+        "open_loans": 1,
+        "overdue_duration": 312,
+        "late_fee_per_day": 15,
+        "balance_due": 1.95
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-242"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-242\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 5352,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 33.45\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-242",
+        "open_loans": 2,
+        "overdue_duration": 5352,
+        "late_fee_per_day": 15,
+        "balance_due": 33.45
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-245"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-245\",\n  \"open_loans\": 1,\n  \"overdue_duration\": 0,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 0\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-245",
+        "open_loans": 1,
+        "overdue_duration": 0,
+        "late_fee_per_day": 15,
+        "balance_due": 0
+      }
+    },
+    {
+      "tool": "get_member_fees",
+      "arguments": {
+        "member_id": "MB-241"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"member_id\": \"MB-241\",\n  \"open_loans\": 2,\n  \"overdue_duration\": 6096,\n  \"late_fee_per_day\": 15,\n  \"balance_due\": 38.1\n}",
+      "parsed": {
+        "ok": true,
+        "member_id": "MB-241",
+        "open_loans": 2,
+        "overdue_duration": 6096,
+        "late_fee_per_day": 15,
+        "balance_due": 38.1
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "dimanche",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1044\",\n      \"title\": \"Une Histoire du dimanche\",\n      \"author\": \"Manon Robin\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-12-27T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1046\",\n      \"title\": \"Les Racines du dimanche\",\n      \"author\": \"Emma Barbier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-03-29T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1074\",\n      \"title\": \"Les Fenêtres du dimanche\",\n      \"author\": \"Julien Guerin\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-07-18T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1083\",\n      \"title\": \"Les Racines du dimanche\",\n      \"author\": \"Sarah Perrin\",\n      \"genre\": \"bd\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2025-08-23T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1102\",\n      \"title\": \"Les Racines du dimanche (tome 2)\",\n      \"author\": \"Fatou Perrin\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-01-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1120\",\n      \"title\": \"Le Voyage du dimanche\",\n      \"author\": \"Paul Mercier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2023-01-22T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1143\",\n      \"title\": \"Un Été du dimanche\",\n      \"author\": \"Chloé Bernard\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-05-22T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1148\",\n      \"title\": \"La Mémoire du dimanche\",\n      \"author\": \"Emma Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-02-24T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1158\",\n      \"title\": \"Les Ombres du dimanche\",\n      \"author\": \"Lucas Roux\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 28,\n      \"added_at\": \"2020-12-16T09:00:00.000Z\",\n      \"archived\": true\n    },\n    {\n      \"book_id\": \"BK-1165\",\n      \"title\": \"La Maison du dimanche\",\n      \"author\": \"Nora Barbier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-08-25T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1169\",\n      \"title\": \"La Nuit du dimanche\",\n      \"author\": \"Mehdi Robin\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2024-12-21T09:00:00.000Z\",\n      \"archived\": true\n    },\n    {\n      \"book_id\": \"BK-1177\",\n      \"title\": \"Le Chant du dimanche\",\n      \"author\": \"Nora Blanc\",\n      \"genre\": \"roman\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-07-20T09:00:00.000Z\",\n      \"archived\": true\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1044",
+            "title": "Une Histoire du dimanche",
+            "author": "Manon Robin",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2025-12-27T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1046",
+            "title": "Les Racines du dimanche",
+            "author": "Emma Barbier",
+            "genre": "jeunesse",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2021-03-29T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1074",
+            "title": "Les Fenêtres du dimanche",
+            "author": "Julien Guerin",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 14,
+            "added_at": "2023-07-18T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1083",
+            "title": "Les Racines du dimanche",
+            "author": "Sarah Perrin",
+            "genre": "bd",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2025-08-23T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1102",
+            "title": "Les Racines du dimanche (tome 2)",
+            "author": "Fatou Perrin",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2023-01-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1120",
+            "title": "Le Voyage du dimanche",
+            "author": "Paul Mercier",
+            "genre": "jeunesse",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2023-01-22T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1143",
+            "title": "Un Été du dimanche",
+            "author": "Chloé Bernard",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2021-05-22T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1148",
+            "title": "La Mémoire du dimanche",
+            "author": "Emma Mercier",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2024-02-24T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1158",
+            "title": "Les Ombres du dimanche",
+            "author": "Lucas Roux",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 28,
+            "added_at": "2020-12-16T09:00:00.000Z",
+            "archived": true
+          },
+          {
+            "book_id": "BK-1165",
+            "title": "La Maison du dimanche",
+            "author": "Nora Barbier",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2026-08-25T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1169",
+            "title": "La Nuit du dimanche",
+            "author": "Mehdi Robin",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2024-12-21T09:00:00.000Z",
+            "archived": true
+          },
+          {
+            "book_id": "BK-1177",
+            "title": "Le Chant du dimanche",
+            "author": "Nora Blanc",
+            "genre": "roman",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2026-07-20T09:00:00.000Z",
+            "archived": true
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "Leroy",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1017\",\n      \"title\": \"Le Chant oubliées (tome 2)\",\n      \"author\": \"Manon Leroy\",\n      \"genre\": \"bd\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2025-09-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1056\",\n      \"title\": \"Le Voyage de pierre\",\n      \"author\": \"Mehdi Leroy\",\n      \"genre\": \"policier\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-10-08T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1076\",\n      \"title\": \"Les Heures du Nord\",\n      \"author\": \"Julien Leroy\",\n      \"genre\": \"poésie\",\n      \"copies\": 1,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-03-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1078\",\n      \"title\": \"Un Été du fleuve\",\n      \"author\": \"Thomas Leroy\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-02-26T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1090\",\n      \"title\": \"Les Ombres de Marseille\",\n      \"author\": \"Thomas Leroy\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2024-08-19T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1099\",\n      \"title\": \"Le Dernier du libraire\",\n      \"author\": \"Nora Leroy\",\n      \"genre\": \"roman\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2025-07-05T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1125\",\n      \"title\": \"Le Silence des vivants\",\n      \"author\": \"Chloé Leroy\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-12-22T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1129\",\n      \"title\": \"Les Racines des autres\",\n      \"author\": \"Yanis Leroy\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2022-08-21T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1176\",\n      \"title\": \"Une Histoire perdues\",\n      \"author\": \"Chloé Leroy\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 21,\n      \"added_at\": \"2021-07-28T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1017",
+            "title": "Le Chant oubliées (tome 2)",
+            "author": "Manon Leroy",
+            "genre": "bd",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2025-09-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1056",
+            "title": "Le Voyage de pierre",
+            "author": "Mehdi Leroy",
+            "genre": "policier",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2024-10-08T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1076",
+            "title": "Les Heures du Nord",
+            "author": "Julien Leroy",
+            "genre": "poésie",
+            "copies": 1,
+            "loan_duration": 21,
+            "added_at": "2023-03-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1078",
+            "title": "Un Été du fleuve",
+            "author": "Thomas Leroy",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2023-02-26T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1090",
+            "title": "Les Ombres de Marseille",
+            "author": "Thomas Leroy",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2024-08-19T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1099",
+            "title": "Le Dernier du libraire",
+            "author": "Nora Leroy",
+            "genre": "roman",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2025-07-05T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1125",
+            "title": "Le Silence des vivants",
+            "author": "Chloé Leroy",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2024-12-22T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1129",
+            "title": "Les Racines des autres",
+            "author": "Yanis Leroy",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2022-08-21T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1176",
+            "title": "Une Histoire perdues",
+            "author": "Chloé Leroy",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 21,
+            "added_at": "2021-07-28T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "NTA="
+      }
+    },
+    {
+      "tool": "get_book",
+      "arguments": {
+        "book_id": "BK-1116"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"book\": {\n    \"book_id\": \"BK-1116\",\n    \"title\": \"La Mémoire du dimanche\",\n    \"author\": \"Fatou Leroy\",\n    \"genre\": \"jeunesse\",\n    \"copies\": 4,\n    \"loan_duration\": 14,\n    \"added_at\": \"2026-09-23T09:00:00.000Z\",\n    \"archived\": false\n  }\n}",
+      "parsed": {
+        "ok": true,
+        "book": {
+          "book_id": "BK-1116",
+          "title": "La Mémoire du dimanche",
+          "author": "Fatou Leroy",
+          "genre": "jeunesse",
+          "copies": 4,
+          "loan_duration": 14,
+          "added_at": "2026-09-23T09:00:00.000Z",
+          "archived": false
+        }
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "La Mémoire du dimanche"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1148\",\n      \"title\": \"La Mémoire du dimanche\",\n      \"author\": \"Emma Mercier\",\n      \"genre\": \"roman\",\n      \"copies\": 4,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-02-24T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"MjA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1148",
+            "title": "La Mémoire du dimanche",
+            "author": "Emma Mercier",
+            "genre": "roman",
+            "copies": 4,
+            "loan_duration": 28,
+            "added_at": "2024-02-24T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "MjA="
+      }
+    },
+    {
+      "tool": "search_books",
+      "arguments": {
+        "query": "jardin",
+        "limit": 50
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": true,\n  \"items\": [\n    {\n      \"book_id\": \"BK-1018\",\n      \"title\": \"Le Jardin de verre\",\n      \"author\": \"Léa Roux\",\n      \"genre\": \"poésie\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2022-06-27T09:00:00.000Z\",\n      \"archived\": true\n    },\n    {\n      \"book_id\": \"BK-1067\",\n      \"title\": \"Le Jardin de septembre\",\n      \"author\": \"Manon Guerin\",\n      \"genre\": \"essai\",\n      \"copies\": 4,\n      \"loan_duration\": 14,\n      \"added_at\": \"2021-10-17T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1070\",\n      \"title\": \"Le Jardin du fleuve\",\n      \"author\": \"Léa Noël\",\n      \"genre\": \"policier\",\n      \"copies\": 1,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-06-28T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1110\",\n      \"title\": \"Le Jardin de pierre\",\n      \"author\": \"Nora Mercier\",\n      \"genre\": \"jeunesse\",\n      \"copies\": 3,\n      \"loan_duration\": 14,\n      \"added_at\": \"2026-07-19T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1135\",\n      \"title\": \"Le Jardin du fleuve\",\n      \"author\": \"Paul Guerin\",\n      \"genre\": \"bd\",\n      \"copies\": 2,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-01-03T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1161\",\n      \"title\": \"Le Jardin du Nord\",\n      \"author\": \"Julien Noël\",\n      \"genre\": \"poésie\",\n      \"copies\": 3,\n      \"loan_duration\": 28,\n      \"added_at\": \"2024-12-29T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1164\",\n      \"title\": \"Le Jardin de verre\",\n      \"author\": \"Léa Perrin\",\n      \"genre\": \"essai\",\n      \"copies\": 3,\n      \"loan_duration\": 21,\n      \"added_at\": \"2023-05-06T09:00:00.000Z\",\n      \"archived\": false\n    },\n    {\n      \"book_id\": \"BK-1175\",\n      \"title\": \"Le Jardin des vivants\",\n      \"author\": \"Nora Girard\",\n      \"genre\": \"poésie\",\n      \"copies\": 2,\n      \"loan_duration\": 28,\n      \"added_at\": \"2026-06-19T09:00:00.000Z\",\n      \"archived\": false\n    }\n  ],\n  \"next\": \"NTA=\"\n}",
+      "parsed": {
+        "ok": true,
+        "items": [
+          {
+            "book_id": "BK-1018",
+            "title": "Le Jardin de verre",
+            "author": "Léa Roux",
+            "genre": "poésie",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2022-06-27T09:00:00.000Z",
+            "archived": true
+          },
+          {
+            "book_id": "BK-1067",
+            "title": "Le Jardin de septembre",
+            "author": "Manon Guerin",
+            "genre": "essai",
+            "copies": 4,
+            "loan_duration": 14,
+            "added_at": "2021-10-17T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1070",
+            "title": "Le Jardin du fleuve",
+            "author": "Léa Noël",
+            "genre": "policier",
+            "copies": 1,
+            "loan_duration": 14,
+            "added_at": "2026-06-28T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1110",
+            "title": "Le Jardin de pierre",
+            "author": "Nora Mercier",
+            "genre": "jeunesse",
+            "copies": 3,
+            "loan_duration": 14,
+            "added_at": "2026-07-19T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1135",
+            "title": "Le Jardin du fleuve",
+            "author": "Paul Guerin",
+            "genre": "bd",
+            "copies": 2,
+            "loan_duration": 21,
+            "added_at": "2023-01-03T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1161",
+            "title": "Le Jardin du Nord",
+            "author": "Julien Noël",
+            "genre": "poésie",
+            "copies": 3,
+            "loan_duration": 28,
+            "added_at": "2024-12-29T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1164",
+            "title": "Le Jardin de verre",
+            "author": "Léa Perrin",
+            "genre": "essai",
+            "copies": 3,
+            "loan_duration": 21,
+            "added_at": "2023-05-06T09:00:00.000Z",
+            "archived": false
+          },
+          {
+            "book_id": "BK-1175",
+            "title": "Le Jardin des vivants",
+            "author": "Nora Girard",
+            "genre": "poésie",
+            "copies": 2,
+            "loan_duration": 28,
+            "added_at": "2026-06-19T09:00:00.000Z",
+            "archived": false
+          }
+        ],
+        "next": "NTA="
+      }
+    }
+  ]
+}

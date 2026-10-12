@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-10-12T11:17:52.230Z",
+  "results": [
+    {
+      "tool": "delete_loan",
+      "arguments": {
+        "loan_id": "LN-9999"
+      },
+      "http": 200,
+      "raw_text": "{\n  \"ok\": false,\n  \"error\": \"not found\"\n}",
+      "parsed": {
+        "ok": false,
+        "error": "not found"
+      }
+    }
+  ]
+}
