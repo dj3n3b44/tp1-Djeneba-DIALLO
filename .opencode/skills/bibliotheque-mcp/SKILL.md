@@ -247,11 +247,16 @@ Preuve : `preuves/13-parametres-non-declares-ignores.json`.
   `delete_loan { "loan_id": "LN-9999" }` → `{ "ok": false, "error": "not found" }`.
 - **Ce que fait réellement le serveur** : suppression logique (passage
   `archived: true`), la ligne reste présente.
-- **Règle à appliquer** : avant de supprimer, relever la liste exacte des
-  `loan_id` et leur `status` pour ne toucher qu'aux prêts demandés. Après
-  `delete_loan`, contrôler avec
+- **Règle à appliquer** : `"archived": true` **EST l'état « supprimé »** de ce
+  serveur. Avant toute suppression, lister avec `include_archived: true` et ne
+  retenir comme cibles que les prêts qui correspondent à la demande **ET** ont
+  `"archived": false`. Un prêt déjà `"archived": true` ne doit **pas** être
+  re-supprimé (l'effet d'un second `delete_loan` n'est pas connu). S'il n'y a
+  **aucune cible**, **ne rien écrire** et rendre compte de l'état constaté
+  (liste des `loan_id` déjà archivés) en rappelant que l'effacement est
+  logique. Après un `delete_loan`, contrôler avec
   `list_loans { "member_id": "…", "include_archived": true, "limit": 50 }` :
-  si les prêts y figurent encore avec `"archived": true`, **dire
+  les prêts y figurent encore avec `"archived": true`, donc **dire
   explicitement au demandeur que l'effacement est logique (archivage) et que
   les outils exposés ne permettent pas d'effacement physique** — ne pas
   écrire « ils ont disparu ».
@@ -320,7 +325,10 @@ Preuve : `preuves/13-parametres-non-declares-ignores.json`.
    `search_books` seul).
 6. Vérifier la signature de la limitation de débit avant d'exploiter une
    réponse vide (G).
-7. Ne rien affirmer qui ne soit prouvé par une réponse brute.
+7. **Avant toute écriture** (`create_loan`, `delete_loan`), **lire l'état
+   actuel** et vérifier que l'action n'a pas déjà été faite ; une écriture
+   inutile ne se rattrape pas.
+8. Ne rien affirmer qui ne soit prouvé par une réponse brute.
 
 ## Étapes sûres par type de tâche
 
@@ -335,8 +343,13 @@ Preuve : `preuves/13-parametres-non-declares-ignores.json`.
   `get_member_fees` (H, I, O).
 - **Créer un prêt** : `list_loans` du membre (anti-doublon) puis
   `create_loan` avec `member_id`, `book_id` et `desk_code` (K).
-- **Nettoyer des prêts** : `delete_loan` puis vérifier via `include_archived:
-  true` et `archived: true` (L).
+- **Nettoyer des prêts** (L) : (a) **état initial** —
+  `list_loans { "member_id": "…", "include_archived": true, "limit": 50 }` ;
+  (b) **cibles** = prêts correspondant à la demande **et** `archived: false` ;
+  (c) `delete_loan` **uniquement** sur ces cibles ; (d) **contrôle final** avec
+  `include_archived: true` ; (e) **compte rendu honnête** — c'est un
+  **archivage**, pas un effacement physique. Si aucune cible (tous déjà
+  `archived: true`), ne rien écrire et rendre compte de l'état constaté.
 - **Préparer une relance** : partir des emprunteurs réellement en retard
   (recoupés), puis filtrer les joignables en couvrant `email === null`, clé
   absente et `active:false` (N).

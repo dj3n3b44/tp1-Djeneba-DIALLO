@@ -165,7 +165,7 @@ Fichier : [`.opencode/skills/bibliotheque-mcp/SKILL.md`](.opencode/skills/biblio
 - Documentation officielle du format : <https://opencode.ai/docs/skills/>. Elle fixe l'emplacement (`.opencode/skills/<nom>/SKILL.md`), le frontmatter obligatoire (`name` en minuscules et tirets, identique au nom du dossier ; `description` de 1 à 1024 caractères) et le mode de chargement (l'agent voit nom et description, puis appelle l'outil `skill`).
 - Générateur : le skill **`skill-creator`** d'Anthropic (dépôt `anthropics/skills`), installé avec le CLI **`skills`** : `npx skills add anthropics/skills --skill skill-creator -a opencode -g`. Choisi parce que c'est un skill qui apprend à l'agent à écrire des skills (structure, description qui déclenche bien, contenu concis), qu'il utilise le même format `SKILL.md` qu'OpenCode, et que le CLI sait l'installer pour OpenCode en une commande (dans `~/.agents/skills/`, emplacement lu par OpenCode).
 
-**Déroulé.** Le skill a été rédigé par l'agent OpenCode, dans la session même où il venait de mener les cinq missions, après chargement de `skill-creator`. Il a reçu en entrée la relecture de sa session (ses erreurs en M1 et M5, les faits vérifiés, les fichiers de `preuves/`) et la contrainte des quatre rubriques par piège. La première version a été renvoyée au travail sur sept points : piège `count_books` sans chiffres, règle confuse pour `delete_loan`, phrase contradictoire sur le token, marche à suivre absente pour `create_loan`, limite de débit mal formulée, preuve unique pour l'horloge figée, et un piège manquant (paramètres non déclarés ignorés). En relisant les preuves, l'agent a aussi corrigé deux chiffres erronés de la consigne (1 prêt BK-1016 et 16 prêts C3 sur la page, et non 2 et 18).
+**Déroulé.** Le skill a été rédigé par l'agent OpenCode, dans la session même où il venait de mener les cinq missions, après chargement de `skill-creator`. Il a reçu en entrée la relecture de sa session (ses erreurs en M1 et M5, les faits vérifiés, les fichiers de `preuves/`) et la contrainte des quatre rubriques par piège. La première version a été renvoyée au travail sur sept points : piège `count_books` sans chiffres, règle confuse pour `delete_loan`, phrase contradictoire sur le token, marche à suivre absente pour `create_loan`, limite de débit mal formulée, preuve unique pour l'horloge figée, et un piège manquant (paramètres non déclarés ignorés). En relisant les preuves, l'agent a aussi corrigé deux chiffres erronés de la consigne (1 prêt BK-1016 et 16 prêts C3 sur la page, et non 2 et 18). Une troisième passe a suivi l'essai de M4 en session neuve (voir 3.3.a) : ajout de la règle « un prêt `archived: true` est déjà supprimé, ne pas le re-supprimer ».
 
 ### 3.2 — Contenu
 
@@ -186,7 +186,7 @@ Le skill sépare les comportements normaux (annoncés par la description des out
 | I | Horloge serveur figée au 2026-10-06 09:00 UTC | prêts, frais |
 | J | Trois formats de date (Unix, ISO, JJ/MM/AAAA) | prêts, livres, adhérents |
 | K | `create_loan` exige `desk_code`, absent du schéma | `create_loan` |
-| L | `delete_loan` archive au lieu de supprimer, et répond `deleted: true` | `delete_loan` |
+| L | `delete_loan` archive au lieu de supprimer, et répond `deleted: true` ; un prêt `archived: true` est déjà supprimé | `delete_loan` |
 | M | `search_books` : ouvrages récents absents, archivés inclus, accents distingués | `search_books` |
 | N | E-mail manquant sous deux formes (`null` ou clé absente), activité à part | `list_members`, `get_member` |
 | O | Erreur de l'agent, pas du serveur : comparer des timestamps de tête | méthode |
@@ -197,15 +197,23 @@ Le skill se termine par une procédure de travail, la marche à suivre par type 
 
 #### a. Session neuve avec le skill
 
-Session neuve « Session neuve AVEC skill - missions », sans historique, même prompt que la première fois. **Trois missions sur cinq ont été relancées : M1, M2 et M5** (lecture seule). **M3 et M4 n'ont pas été relancées** : elles modifient les données (M3 créerait un second prêt MB-214 / BK-1042, les prêts rendus de MB-202 sont déjà archivés).
+Session neuve « Session neuve AVEC skill - missions », sans historique, même prompt que la première fois (« Fais la mission Mx — … »), pour les cinq missions.
+
+M3 et M4 écrivent sur le serveur, et leur effet était déjà en place (prêt LN-5137 créé, six prêts de MB-202 archivés). Pour ne pas créer de doublon ni modifier les données sans nécessité, ces deux missions ont été relancées avec un garde-fou : `create_loan` et `delete_loan` soumis à approbation (`permission: ask`, passé par la variable `OPENCODE_CONFIG_CONTENT`, sans toucher à `opencode.json`), donc refusés automatiquement par `opencode run`. L'agent n'en était pas informé. L'état des fiches MB-214 et MB-202 a été relevé avant et après : strictement identique.
 
 | Mission | Sans skill | Avec skill |
 |---|---|---|
 | M1 | 184 titres, « vérifié par `count_books` » | 184 notices dont 26 archivées → 158 en circulation, répartition donnée pour les trois périmètres ; pagination 50/50/50/34 ; `count_books` écarté |
 | M2 | 179 jours, 26,85 € (après hésitation sur les unités et la date) | Même résultat du premier coup, calcul par script, horloge serveur annoncée, recoupement par `get_member_fees` |
+| M3 | Deux échecs `missing field`, lecture de `.env`, trois essais d'écriture en direct, prêt LN-5137 créé | Lit la fiche d'abord, constate que LN-5137 (MB-214 / BK-1042, `open`) existe déjà, **ne crée rien** et le signale, en rappelant que `desk_code` est requis |
+| M4 | Six `delete_loan`, puis constat que les prêts restent en archive | **1ᵉʳ essai : échec du skill** — l'agent a vu les six prêts déjà `archived: true` et a quand même tenté six `delete_loan` (refusés par le garde-fou). Skill corrigé, puis session neuve : aucune écriture, état constaté et effacement logique expliqué |
 | M5 | 28 en retard, 19 joignables, 9 non (2 cas) | 29 en retard, 20 joignables, 9 non (3 cas distingués), recoupement par `get_member_fees` sur les 29, adresse partagée signalée |
 
-Les résultats avec skill sont identiques au recalcul indépendant fait sur les réponses brutes.
+Pour M1, M2 et M5, les résultats avec skill sont identiques au recalcul indépendant fait sur les réponses brutes.
+
+**Bilan du critère « du premier coup »** : quatre missions sur cinq passent au premier essai avec le skill. M4 a échoué au premier essai : le skill expliquait que `delete_loan` archive, mais pas qu'un prêt `archived: true` est déjà supprimé. La règle a été ajoutée par l'agent (piège L, « Nettoyer des prêts », et étape « lire l'état avant toute écriture »), et M4 passe ensuite du premier coup dans une nouvelle session neuve (« Session neuve AVEC skill corrige - M4 »).
+
+**Limite de cette preuve** : comme le prêt de M3 existait déjà, la session avec skill n'a pas eu à appeler `create_loan`. Le passage de `desk_code` par l'outil OpenCode reste donc non vérifié ; le skill le dit dans sa section « Points non vérifiés ». Le vérifier demanderait de créer un prêt supplémentaire sur le serveur.
 
 **M1 — avant / après**
 
@@ -223,6 +231,17 @@ Les résultats avec skill sont identiques au recalcul indépendant fait sur les 
 ![M2 sans skill](captures/ex33a-avant-M2.png)
 ![M2 avec skill](captures/ex33a-apres-M2.png)
 
+**M3 — avant / après**
+
+![M3 sans skill](captures/ex33a-avant-M3.png)
+![M3 avec skill : prêt existant détecté, aucune création](captures/ex33a-apres-M3.png)
+
+**M4 — avant / après**
+
+![M4 sans skill](captures/ex33a-avant-M4.png)
+![M4 avec skill, premier essai : six delete_loan tentés et refusés](captures/ex33a-apres-M4-essai1-suppressions-bloquees.png)
+![M4 avec skill corrigé, session neuve : aucune écriture](captures/ex33a-apres-M4.png)
+
 #### b. Le skill a-t-il été lu ?
 
 Oui. Dans la session neuve, le tout premier appel de l'agent, avant `get_mission`, est l'outil `skill` avec le nom `bibliotheque-mcp` (ligne « Bibliotheque-Mcp » dans l'interface, `→ Skill "bibliotheque-mcp"` dans la sortie de `opencode run`). On le voit aussi au comportement : pagination à `limit: 50`, arrêt sur la page de moins de 50 lignes, calcul des retards par script, mention de l'horloge serveur et des unités — rien de tout cela n'apparaissait dans la première session.
@@ -239,9 +258,8 @@ Un skill est une connaissance que **l'agent** charge de lui-même quand sa descr
 
 ## Captures
 
-Les captures `outils-mcp.png`, `outil-lecture.png` et `missions.png` ont été prises dans le terminal OpenCode pendant la séance. Les captures `ex*.png` sont prises dans l'interface web d'OpenCode (`opencode serve`) affichant les mêmes sessions. Cette interface n'affiche pas le contenu des réponses des outils MCP : pour la preuve de 2.b, l'agent a rappelé les outils dans une session dédiée en affichant leur réponse telle quelle ; le texte affiché est identique, caractère pour caractère, aux réponses de l'outil enregistrées dans l'export de cette session ([`preuves/14`](preuves/14-session-opencode-preuves.json)). Les appels de la session avec skill sont dans [`preuves/15`](preuves/15-session-opencode-avec-skill.json).
+Les captures `outils-mcp.png`, `outil-lecture.png` et `missions.png` ont été prises dans le terminal OpenCode pendant la séance. Les captures `ex*.png` sont prises dans l'interface web d'OpenCode (`opencode serve`) affichant les mêmes sessions. Cette interface n'affiche pas le contenu des réponses des outils MCP : pour la preuve de 2.b, l'agent a rappelé les outils dans une session dédiée en affichant leur réponse telle quelle ; le texte affiché est identique, caractère pour caractère, aux réponses de l'outil enregistrées dans l'export de cette session ([`preuves/14`](preuves/14-session-opencode-preuves.json)). Les appels des sessions avec skill sont dans [`preuves/15`](preuves/15-session-opencode-avec-skill.json) (cinq missions, dont les six `delete_loan` refusés) et [`preuves/16`](preuves/16-session-opencode-avec-skill-corrige-M4.json) (M4 après correction).
 
 ## Reste à faire
 
-- Relancer M3 et M4 dans la session avec skill (décision à prendre, ces missions écrivent sur le serveur) ; M3 dira si OpenCode transmet `desk_code` par l'outil.
 - Renommer le dépôt `tp1-<nom1>-<nom2>` et le pousser.
